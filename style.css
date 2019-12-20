@@ -11,6 +11,8 @@ body {
     font-family: 'Lato', sans-serif;
     font-size: 20px;
     margin: 0 !important;
+    background: url() no-repeat top center #efeff1;
+    background-size: cover;
 }
 
 
@@ -26,12 +28,34 @@ body {
     margin-right: auto;
 }
 
-#logo {
-    padding-top: 323px;
-    width: 856px;
-    height: 177px;
+.logo {
+    padding-top: 0px;
+    width: 100%;
+    height: 100%;
     margin-left: auto;
     margin-right: auto;
+    position: relative;
+
+}
+
+.logo:before,
+.logo::after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+
+}
+
+.glitch:before {
+    left: 8px;
+
+}
+
+.glitch:after {
+    left: 8px;
+
 }
 
 .topbar {
@@ -70,12 +94,12 @@ body {
 }
 
 nav {
-    padding: 0;
+    padding: 0px;
     margin: 0;
     list-style-type: none;
     font-size: 18px;
     height: 35px;
-    line-height: 300%;
+    line-height: 400%;
     display: inline-block;
 }
 
@@ -84,17 +108,18 @@ nav a {
     font-weight: 500;
     text-transform: uppercase;
     text-decoration: none;
+    text-shadow: 1px 1px 2px grey;
     color: #16151b;
     margin: 0 15px;
     font-size: 16px;
     letter-spacing: 1px;
     position: relative;
-    display: block;
+    display: inline-block;
 }
 
 nav>li {
     float: left;
-    width: 150px;
+    width: 200px;
 }
 
 nav a:before {
