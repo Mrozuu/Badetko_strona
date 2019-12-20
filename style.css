@@ -11,7 +11,7 @@ body {
     font-family: 'Lato', sans-serif;
     font-size: 20px;
     margin: 0 !important;
-    background: url() no-repeat top center #efeff1;
+    background: url(images/background2.jpg) no-repeat top center #efeff1;
     background-size: cover;
 }
 
