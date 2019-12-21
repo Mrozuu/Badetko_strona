@@ -11,8 +11,9 @@ body {
     font-family: 'Lato', sans-serif;
     font-size: 20px;
     margin: 0 !important;
-    background: url(images/background2.jpg) no-repeat top center #efeff1;
     background-size: cover;
+
+
 }
 
 
@@ -26,37 +27,33 @@ body {
     height: 870px;
     margin-left: auto;
     margin-right: auto;
+    background: linear-gradient(rgba(100, 100, 100, .9), rgba(255, 255, 255, .9)), url(images/background2.jpg) no-repeat top center #efeff1;
 }
 
 .logo {
-    padding-top: 0px;
-    width: 100%;
-    height: 100%;
+    padding-top: 10%;
+    padding-right: 5%;
+    width: 50%;
+    height: 50%;
     margin-left: auto;
     margin-right: auto;
     position: relative;
+    text-shadow: 3px 3px 4px grey;
 
 }
 
-.logo:before,
-.logo::after {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    overflow: hidden;
-
+.name {
+    padding-top: 20px;
+    text-align: center;
+    font-size: 30px;
+    color: black;
 }
 
-.glitch:before {
-    left: 8px;
-
+.prop {
+    text-align: center;
+    color: rgb(66, 64, 64);
 }
 
-.glitch:after {
-    left: 8px;
-
-}
 
 .topbar {
     height: 50px;
@@ -98,7 +95,7 @@ nav {
     margin: 0;
     list-style-type: none;
     font-size: 18px;
-    height: 35px;
+    height: 10%;
     line-height: 400%;
     display: inline-block;
 }
