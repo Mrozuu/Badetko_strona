@@ -12,8 +12,6 @@ body {
     font-size: 20px;
     margin: 0 !important;
     background-size: cover;
-
-
 }
 
 
@@ -27,7 +25,7 @@ body {
     height: 870px;
     margin-left: auto;
     margin-right: auto;
-    background: linear-gradient(rgba(100, 100, 100, .9), rgba(255, 255, 255, .9)), url(images/background2.jpg) no-repeat top center #efeff1;
+    background: linear-gradient(rgba(100, 100, 100, .9), rgba(255, 255, 255, 1)), url(images/background2.jpg) no-repeat top center #efeff1;
 }
 
 .logo {
@@ -271,6 +269,7 @@ h1:nth-child(3) {
 /* KONIEC ANIMACJI IMIENIA */
 .prop {
     text-align: center;
+    letter-spacing: 1px;
     color: rgb(66, 64, 64);
 }
 
@@ -306,9 +305,6 @@ h1:nth-child(3) {
 
 }
 
-#container_gallery {
-    height: 1500px;
-}
 
 nav {
     padding: 0px;
@@ -397,4 +393,16 @@ nav a:hover:before {
     nav a:nth-child(#{$i}) {
         animation:show .2s #{$i*0.1+1}s ease 1 both;
     }
+}
+
+#container_gallery {
+    height: 1500px;
+}
+
+#about_me {
+    height: 1500px;
+}
+
+#contact {
+    height: 1500px;
 }
