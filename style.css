@@ -1,408 +1,413 @@
-@import url('https://fonts.googleapis.com/css?family=Oswald:500');
+@import url("https://fonts.googleapis.com/css?family=Oswald:500");
 
 html {
-    height: 100%;
-    width: 100%;
+  height: 100%;
+  width: 100%;
 }
 
 body {
-    background-color: white;
-    color: #ffffff;
-    font-family: 'Lato', sans-serif;
-    font-size: 20px;
-    margin: 0 !important;
-    background-size: cover;
+  background-color: white;
+  color: #ffffff;
+  font-family: "Lato", sans-serif;
+  font-size: 20px;
+  margin: 0 !important;
+  background-size: cover;
 }
 
-
 #wrap {
-    width: 100%;
-
+  width: 100%;
 }
 
 #header {
-    width: 100%;
-    height: 870px;
-    margin-left: auto;
-    margin-right: auto;
-    background: linear-gradient(rgba(100, 100, 100, .9), rgba(255, 255, 255, 1)), url(images/background2.jpg) no-repeat top center #efeff1;
+  width: 100%;
+  height: 870px;
+  margin-left: auto;
+  margin-right: auto;
+  background: linear-gradient(rgba(100, 100, 100, 0.9), rgba(255, 255, 255, 1)),
+    url(images/background2.jpg) no-repeat top center #efeff1;
 }
 
 .logo {
-    padding-top: 5%;
-    padding-right: 5%;
-    padding-bottom: 5%;
-    width: 50%;
-    height: 50%;
-    margin-left: auto;
-    margin-right: auto;
-    position: relative;
-    text-shadow: 3px 3px 4px grey;
-
+  padding-top: 5%;
+  padding-right: 5%;
+  padding-bottom: 5%;
+  width: 50%;
+  height: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  text-shadow: 3px 3px 4px grey;
 }
 
 /* ANIMACJA IMIENIA */
 
 h1 {
-    font-size: 30px;
-    text-align: center;
-    color: black;
-    letter-spacing: 8px;
-    /*Create overlap*/
-    margin: 0;
-    line-height: 0;
-    /*Animation*/
+  font-size: 30px;
+  text-align: center;
+  color: black;
+  letter-spacing: 8px;
+  /*Create overlap*/
+  margin: 0;
+  line-height: 0;
+  /*Animation*/
 
-    animation: glitch1 2.5s infinite;
+  animation: glitch1 2.5s infinite;
 }
 
 h1:nth-child(2) {
-    color: #67f3da;
-    animation: glitch2 2.5s infinite;
+  color: #67f3da;
+  animation: glitch2 2.5s infinite;
 }
 
 h1:nth-child(3) {
-    color: #f16f6f;
-    animation: glitch3 2.5s infinite;
+  color: #f16f6f;
+  animation: glitch3 2.5s infinite;
 }
 
 /*Keyframes*/
 
 @keyframes glitch1 {
-    0% {
-        transform: none;
-        opacity: 1;
-    }
+  0% {
+    transform: none;
+    opacity: 1;
+  }
 
-    7% {
-        opacity: 0.75;
-    }
+  7% {
+    opacity: 0.75;
+  }
 
-    10% {
-        transform: none;
-        opacity: 1;
-    }
+  10% {
+    transform: none;
+    opacity: 1;
+  }
 
-    27% {
-        transform: none;
-        opacity: 1;
-    }
+  27% {
+    transform: none;
+    opacity: 1;
+  }
 
-    30% {
+  30% {
+    opacity: 0.75;
+  }
 
-        opacity: 0.75;
-    }
+  35% {
+    transform: none;
+    opacity: 1;
+  }
 
-    35% {
-        transform: none;
-        opacity: 1;
-    }
+  52% {
+    transform: none;
+    opacity: 1;
+  }
 
-    52% {
-        transform: none;
-        opacity: 1;
-    }
+  55% {
+    opacity: 0.75;
+  }
 
-    55% {
-        opacity: 0.75;
-    }
+  50% {
+    transform: none;
+    opacity: 1;
+  }
 
-    50% {
-        transform: none;
-        opacity: 1;
-    }
+  72% {
+    transform: none;
+    opacity: 1;
+  }
 
-    72% {
-        transform: none;
-        opacity: 1;
-    }
+  75% {
+    opacity: 0.75;
+  }
 
-    75% {
-        opacity: 0.75;
-    }
+  80% {
+    transform: none;
+    opacity: 1;
+  }
 
-    80% {
-        transform: none;
-        opacity: 1;
-    }
-
-    100% {
-        transform: none;
-        opacity: 1;
-    }
+  100% {
+    transform: none;
+    opacity: 1;
+  }
 }
 
 @keyframes glitch2 {
-    0% {
-        transform: none;
-        opacity: 0.25;
-    }
+  0% {
+    transform: none;
+    opacity: 0.25;
+  }
 
-    7% {
-        transform: translate(-2px, -3px);
-        opacity: 0.5;
-    }
+  7% {
+    transform: translate(-2px, -3px);
+    opacity: 0.5;
+  }
 
-    10% {
-        transform: none;
-        opacity: 0.25;
-    }
+  10% {
+    transform: none;
+    opacity: 0.25;
+  }
 
-    27% {
-        transform: none;
-        opacity: 0.25;
-    }
+  27% {
+    transform: none;
+    opacity: 0.25;
+  }
 
-    30% {
-        transform: translate(-5px, -2px);
-        opacity: 0.5;
-    }
+  30% {
+    transform: translate(-5px, -2px);
+    opacity: 0.5;
+  }
 
-    35% {
-        transform: none;
-        opacity: 0.25;
-    }
+  35% {
+    transform: none;
+    opacity: 0.25;
+  }
 
-    52% {
-        transform: none;
-        opacity: 0.25;
-    }
+  52% {
+    transform: none;
+    opacity: 0.25;
+  }
 
-    55% {
-        transform: translate(-5px, -1px);
-        opacity: 0.5;
-    }
+  55% {
+    transform: translate(-5px, -1px);
+    opacity: 0.5;
+  }
 
-    50% {
-        transform: none;
-        opacity: 0.25;
-    }
+  50% {
+    transform: none;
+    opacity: 0.25;
+  }
 
-    72% {
-        transform: none;
-        opacity: 0.25;
-    }
+  72% {
+    transform: none;
+    opacity: 0.25;
+  }
 
-    75% {
-        transform: translate(-2px, -6px);
-        opacity: 0.5;
-    }
+  75% {
+    transform: translate(-2px, -6px);
+    opacity: 0.5;
+  }
 
-    80% {
-        transform: none;
-        opacity: 0.25;
-    }
+  80% {
+    transform: none;
+    opacity: 0.25;
+  }
 
-    100% {
-        transform: none;
-        opacity: 0.25;
-    }
+  100% {
+    transform: none;
+    opacity: 0.25;
+  }
 }
 
 @keyframes glitch3 {
-    0% {
-        transform: none;
-        opacity: 0.25;
-    }
+  0% {
+    transform: none;
+    opacity: 0.25;
+  }
 
-    7% {
-        transform: translate(2px, 3px);
-        opacity: 0.5;
-    }
+  7% {
+    transform: translate(2px, 3px);
+    opacity: 0.5;
+  }
 
-    10% {
-        transform: none;
-        opacity: 0.25;
-    }
+  10% {
+    transform: none;
+    opacity: 0.25;
+  }
 
-    27% {
-        transform: none;
-        opacity: 0.25;
-    }
+  27% {
+    transform: none;
+    opacity: 0.25;
+  }
 
-    30% {
-        transform: translate(5px, 2px);
-        opacity: 0.5;
-    }
+  30% {
+    transform: translate(5px, 2px);
+    opacity: 0.5;
+  }
 
-    35% {
-        transform: none;
-        opacity: 0.25;
-    }
+  35% {
+    transform: none;
+    opacity: 0.25;
+  }
 
-    52% {
-        transform: none;
-        opacity: 0.25;
-    }
+  52% {
+    transform: none;
+    opacity: 0.25;
+  }
 
-    55% {
-        transform: translate(5px, 1px);
-        opacity: 0.5;
-    }
+  55% {
+    transform: translate(5px, 1px);
+    opacity: 0.5;
+  }
 
-    50% {
-        transform: none;
-        opacity: 0.25;
-    }
+  50% {
+    transform: none;
+    opacity: 0.25;
+  }
 
-    72% {
-        transform: none;
-        opacity: 0.25;
-    }
+  72% {
+    transform: none;
+    opacity: 0.25;
+  }
 
-    75% {
-        transform: translate(2px, 6px);
-        opacity: 0.5;
-    }
+  75% {
+    transform: translate(2px, 6px);
+    opacity: 0.5;
+  }
 
-    80% {
-        transform: none;
-        opacity: 0.25;
-    }
+  80% {
+    transform: none;
+    opacity: 0.25;
+  }
 
-    100% {
-        transform: none;
-        opacity: 0.25;
-    }
+  100% {
+    transform: none;
+    opacity: 0.25;
+  }
 }
 
 /* KONIEC ANIMACJI IMIENIA */
 .prop {
-    text-align: center;
-    letter-spacing: 1px;
-    color: rgb(66, 64, 64);
+  text-align: center;
+  letter-spacing: 1px;
+  color: rgb(66, 64, 64);
 }
 
-
 .topbar {
-    height: 50px;
-    width: 100%;
-    background-color: cadetblue;
+  height: 50px;
+  width: 100%;
+  background-color: cadetblue;
 }
 
 .sticky {
-    width: 100%;
-    position: fixed;
-    left: 0;
-    top: 0;
-    z-index: 100;
+  width: 100%;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 100;
 }
 
-
 .bottombar {
-    width: 100%;
-    text-align: center;
+  width: 100%;
+  text-align: center;
+  background-color: white;
+}
+
+.bottombar_space {
+  width: 100%;
+}
+
+.space {
+  height: 72px;
+}
+
+.gradient {
+  background: linear-gradient(rgba(200, 200, 200, 0.2), rgba(255, 255, 255, 1)),
+    url(images/background2.jpg) no-repeat top center #efeff1;
 }
 
 #bottom_container {
-    width: 100%;
-
+  width: 100%;
 }
 
 #header div img {
-    width: 100%;
-    height: 100%;
-
+  width: 100%;
+  height: 100%;
 }
 
-
 nav {
-    padding: 0px;
-    margin: 0;
-    list-style-type: none;
-    font-size: 18px;
-    height: 10%;
-    line-height: 400%;
-    display: inline-block;
+  padding: 0px;
+  margin: 0;
+  list-style-type: none;
+  font-size: 18px;
+  height: 10%;
+  line-height: 400%;
+  display: inline-block;
 }
 
 nav a {
-    font-family: 'Oswald', sans-serif;
-    font-weight: 500;
-    text-transform: uppercase;
-    text-decoration: none;
-    color: #16151b;
-    margin: 0 15px;
-    font-size: 16px;
-    letter-spacing: 1px;
-    position: relative;
-    display: inline-block;
+  font-family: "Oswald", sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #16151b;
+  margin: 0 15px;
+  font-size: 16px;
+  letter-spacing: 1px;
+  position: relative;
+  display: inline-block;
 }
 
-nav>li {
-    float: left;
-    width: 200px;
+nav > li {
+  float: left;
+  width: 200px;
 }
 
 nav a:before {
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 3px;
-    background: #16151b;
-    top: 47%;
-    animation: out 0.2s cubic-bezier(1, 0, 0.58, 0.97) 1 both;
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 3px;
+  background: #16151b;
+  top: 47%;
+  animation: out 0.2s cubic-bezier(1, 0, 0.58, 0.97) 1 both;
 }
 
 nav a:hover:before {
-    animation: in 0.2s cubic-bezier(1, 0, 0.58, 0.97) 1 both;
-
+  animation: in 0.2s cubic-bezier(1, 0, 0.58, 0.97) 1 both;
 }
 
 @keyframes in {
-    0% {
-        width: 0;
-        left: 0;
-        right: auto;
-    }
+  0% {
+    width: 0;
+    left: 0;
+    right: auto;
+  }
 
-    100% {
-        left: 0;
-        right: auto;
-        width: 100%;
-    }
+  100% {
+    left: 0;
+    right: auto;
+    width: 100%;
+  }
 }
 
 @keyframes out {
-    0% {
-        width: 100%;
-        left: auto;
-        right: 0;
-    }
+  0% {
+    width: 100%;
+    left: auto;
+    right: 0;
+  }
 
-    100% {
-        width: 0;
-        left: auto;
-        right: 0;
-    }
+  100% {
+    width: 0;
+    left: auto;
+    right: 0;
+  }
 }
 
 @keyframes show {
-    0% {
-        opacity: 0;
-        transform: translateY(-10px);
-    }
+  0% {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
 
-    100% {
-        opacity: 1;
-        transform: translateY(0);
-    }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 @for $i from 1 through 5 {
-    nav a:nth-child(#{$i}) {
-        animation:show .2s #{$i*0.1+1}s ease 1 both;
-    }
+  nav a:nth-child(#{$i}) {
+    animation: show 0.2s #{$i * 0.1+1}s ease 1 both;
+  }
 }
 
 #container_gallery {
-    height: 1500px;
+  height: 1500px;
 }
 
 #about_me {
-    height: 1500px;
+  height: 1500px;
 }
 
 #contact {
-    height: 1500px;
+  height: 1500px;
 }

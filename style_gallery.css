@@ -1,0 +1,235 @@
+.container_gallery a:link {
+  color: #fff;
+  text-decoration: none;
+}
+
+.container_gallery a:visited {
+  color: #fff;
+}
+
+.container_gallery a:hover {
+  color: #fff;
+}
+
+.container_gallery a:active {
+  color: #fff;
+}
+
+.container_gallery {
+  margin-top: 120px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1260px;
+  height: 630px;
+  text-align: center;
+  padding: 0;
+  margin-bottom: 25px;
+}
+
+.upper_gallery {
+  display: inline-block;
+  width: 460px;
+  text-align: center;
+  padding: 5px;
+  margin-top: 50px;
+}
+
+.upper_gallery p {
+  padding: 5px;
+  margin-top: 10px;
+}
+
+.bottom_gallery {
+  display: inline-block;
+  width: 300px;
+  text-align: center;
+  padding: 5px;
+  margin-top: 5px;
+}
+
+.bottom_gallery p {
+  padding: 5px;
+  margin-top: 10px;
+}
+
+.photo_width {
+  width: 450px;
+  height: 278px;
+  overflow: hidden;
+}
+
+.photo_width img {
+  transition: all 0.5s ease-in-out;
+}
+
+.photo_width:hover img {
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.photo_height {
+  width: 290px;
+  height: 395px;
+  overflow: hidden;
+}
+
+.photo_height img {
+  transition: all 0.5s ease-in-out;
+}
+
+.photo_height:hover img {
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.gallery_title {
+  width: 100%;
+  height: 30px;
+  padding-bottom: 0px;
+  margin-bottom: 10px;
+}
+
+.gallery_title h1 {
+  font-size: 30px;
+  text-align: center;
+  color: black;
+  letter-spacing: 8px;
+  padding-bottom: 5px;
+}
+
+.gallery_left {
+  float: left;
+  width: 830px;
+  height: 595px;
+}
+
+.photo_one {
+  float: left;
+  width: 385px;
+  height: 290px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  overflow: hidden;
+}
+
+.photo_one img {
+  width: 390px;
+  height: 290px;
+  transition: all 0.5s ease-in-out;
+}
+.photo_one:hover img {
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.photo_two {
+  float: left;
+  width: 425px;
+  height: 290px;
+  margin-left: 5px;
+  margin-bottom: 5px;
+  overflow: hidden;
+}
+.photo_two img {
+  width: 425px;
+  height: 290px;
+  transition: all 0.5s ease-in-out;
+}
+.photo_two:hover img {
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.photo_three {
+  float: left;
+  width: 330px;
+  height: 295px;
+  margin-right: 5px;
+  margin-top: 5px;
+  overflow: hidden;
+}
+.photo_three img {
+  width: 330px;
+  height: 295px;
+  transition: all 0.5s ease-in-out;
+}
+.photo_three:hover img {
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+}
+.photo_four {
+  float: left;
+  width: 480px;
+  height: 295px;
+  margin-left: 5px;
+  margin-top: 5px;
+  overflow: hidden;
+}
+.photo_four img {
+  width: 480px;
+  height: 295px;
+  transition: all 0.5s ease-in-out;
+}
+.photo_four:hover img {
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.gallery_right {
+  float: left;
+  width: 420px;
+  height: 595px;
+  margin-top: 0px;
+  margin-left: 0px;
+}
+
+.photo_five {
+  float: left;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.photo_five img {
+  height: 595px;
+  width: 420px;
+  transition: all 0.5s ease-in-out;
+}
+
+.photo_five:hover img {
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.overlay {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.overlay .link {
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 50px;
+  background-color: #111;
+  left: 0px;
+  bottom: 0px;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.overlay .link p {
+  line-height: 5px;
+}
+
+.overlay:hover .link {
+  opacity: 0.8;
+}
