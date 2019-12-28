@@ -8,6 +8,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <link rel="stylesheet" href="style.css" type="text/css" />
     <link rel="stylesheet" href="style_gallery.css" type="text/css" />
+    <link
+      href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
 
     <link
       href="https://fonts.googleapis.com/css?family=Lato:400,900&display=swap&subset=latin-ext"
@@ -21,6 +26,9 @@
   </head>
 
   <body>
+    <script>
+      AOS.init();
+    </script>
     <div id="wrap">
       <div id="header">
         <div class="logo">
@@ -47,51 +55,95 @@
       <div class="bottombar_space"></div>
       <article>
         <div class="container_gallery">
-          <div class="gallery_title"><h1>PROJECTS</h1></div>
+          <div
+            data-aos="zoom-in-down"
+            data-aos-once="true"
+            data-aos-duration="1000"
+            data-aos-delay="0"
+          >
+            <div class="gallery_title"><h1>PROJECTS</h1></div>
+          </div>
           <div class="gallery_left">
-            <div class="photo_one">
-              <div class="overlay">
-                <a href="#"
-                  ><img
-                    src="images_gallery/butterkato/butterkato_thu.jpg"
-                    alt=""
-                /></a>
-                <a class="link" href="#"><p>Projekt Jeden</p></a>
+            <div
+              data-aos="fade-down-right"
+              data-aos-once="true"
+              data-aos-duration="1000"
+              data-aos-delay="100"
+            >
+              <div class="photo_one">
+                <div class="overlay">
+                  <a href="#"
+                    ><img
+                      src="images_gallery/butterkato/butterkato_thu.jpg"
+                      alt=""
+                  /></a>
+                  <a class="link" href="#"><p>Projekt Jeden</p></a>
+                </div>
               </div>
             </div>
-            <div class="photo_two">
-              <div class="overlay">
-                <a href="#"
-                  ><img src="images_gallery/amk/amk_thu.jpg" alt=""
-                /></a>
-                <a class="link" href="#"><p>Projekt Dwa</p></a>
+            <div
+              data-aos="fade-down"
+              data-aos-once="true"
+              data-aos-duration="1000"
+              data-aos-delay="100"
+            >
+              <div class="photo_two">
+                <div class="overlay">
+                  <a href="#"
+                    ><img src="images_gallery/amk/amk_thu.jpg" alt=""
+                  /></a>
+                  <a class="link" href="#"><p>Projekt Dwa</p></a>
+                </div>
               </div>
             </div>
             <div style="clear:both"></div>
-            <div class="photo_three">
-              <div class="overlay">
-                <a href="#"
-                  ><img src="images_gallery/omh/omh_thu.jpg" alt=""
-                /></a>
-                <a class="link" href="#"><p>Projekt Trzy</p></a>
+
+            <div
+              data-aos="fade-right"
+              data-aos-once="true"
+              data-aos-duration="1000"
+              data-aos-delay="100"
+            >
+              <div class="photo_three">
+                <div class="overlay">
+                  <a href="#"
+                    ><img src="images_gallery/omh/omh_thu.jpg" alt=""
+                  /></a>
+                  <a class="link" href="#"><p>Projekt Trzy</p></a>
+                </div>
               </div>
             </div>
-            <div class="photo_four">
-              <div class="overlay">
-                <a href="#"
-                  ><img src="images_gallery/ibs/ibs_thu.jpg" alt=""
-                /></a>
-                <a class="link" href="#"><p>Projekt Cztery</p></a>
+
+            <div
+              data-aos="fade-up"
+              data-aos-once="true"
+              data-aos-duration="1000"
+              data-aos-delay="100"
+            >
+              <div class="photo_four">
+                <div class="overlay">
+                  <a href="#"
+                    ><img src="images_gallery/ibs/ibs_thu.jpg" alt=""
+                  /></a>
+                  <a class="link" href="#"><p>Projekt Cztery</p></a>
+                </div>
               </div>
             </div>
           </div>
           <div class="gallery_right">
-            <div class="photo_five">
-              <div class="overlay">
-                <a href="#"
-                  ><img src="images_gallery/bms/bms_thu.jpg" alt=""
-                /></a>
-                <a class="link" href="#"><p>Projekt Pięć</p></a>
+            <div
+              data-aos="fade-left"
+              data-aos-once="true"
+              data-aos-duration="1000"
+              data-aos-delay="100"
+            >
+              <div class="photo_five">
+                <div class="overlay">
+                  <a href="#"
+                    ><img src="images_gallery/bms/bms_thu.jpg" alt=""
+                  /></a>
+                  <a class="link" href="#"><p>Projekt Pięć</p></a>
+                </div>
               </div>
             </div>
           </div>
