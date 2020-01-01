@@ -41,7 +41,7 @@ body {
 
 /* ANIMACJA IMIENIA */
 
-h1 {
+#header h1 {
   font-size: 30px;
   text-align: center;
   color: black;
@@ -54,12 +54,12 @@ h1 {
   animation: glitch1 2.5s infinite;
 }
 
-h1:nth-child(2) {
+#header h1:nth-child(2) {
   color: #67f3da;
   animation: glitch2 2.5s infinite;
 }
 
-h1:nth-child(3) {
+#header h1:nth-child(3) {
   color: #f16f6f;
   animation: glitch3 2.5s infinite;
 }
@@ -335,7 +335,7 @@ nav a {
   display: inline-block;
 }
 
-nav > li {
+nav>li {
   float: left;
   width: 200px;
 }
