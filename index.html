@@ -26,7 +26,7 @@
     />
   </head>
 
-  <body>
+  <body onselectstart="return false" onselect="return false" oncopy="return false">
     <script>
       AOS.init();
     </script>
@@ -48,22 +48,22 @@
 
       <div class="bottombar">
         <nav>
-          <li><a href="#container_gallery">Projects</a></li>
-          <li><a href="#about_me">About me</a></li>
-          <li><a href="#contact">Contact</a></li>
+          <li class="#nav_projects"><a href="#container_gallery">Projects</a></li>
+          <li clss="#nav_about_me"><a href="#about_me">About me</a></li>
+          <li class="#nav_contact"><a href="#contact">Contact</a></li>
         </nav>
       </div>
       <div class="bottombar_space"></div>
       <article>
         <div id="container_gallery"></a>
-          <div class="container_gallery_space">ssss</div>
+          <div class="container_gallery_space"></div>
           <div
             data-aos="zoom-in"
             data-aos-once="true"
             data-aos-duration="1000"
             data-aos-delay="500"
           >
-            <div class="gallery_title"><h1>PROJECTS</h1></div>
+            <!-- <div class="gallery_title"><h1>PROJECTS</h1></div> -->
           </div>
           <div class="gallery_left">
             <div
