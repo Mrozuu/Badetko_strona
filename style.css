@@ -270,11 +270,6 @@ body {
   color: rgb(66, 64, 64);
 }
 
-.topbar {
-  height: 50px;
-  width: 100%;
-  background-color: cadetblue;
-}
 
 .sticky {
   width: 100%;
@@ -403,9 +398,7 @@ nav a:hover:before {
 
 /* ELEMENTY NAV */
 
-#nav_projects{
-  
-}
+#nav_projects {}
 
 
 
