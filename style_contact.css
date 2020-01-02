@@ -92,8 +92,7 @@ textarea:hover::focus:-ms-placeholder {
 
 body {
     font-family: 'Lato', sans-serif;
-    background: #e2dedb;
-    color: #b3aca7;
+    color: #726659
 }
 
 header {
