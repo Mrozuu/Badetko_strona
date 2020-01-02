@@ -8,6 +8,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <link rel="stylesheet" href="style.css" type="text/css" />
     <link rel="stylesheet" href="style_gallery.css" type="text/css" />
+    <link rel="stylesheet" href="style_about_me.css" type="text/css" />
+
     <link rel="stylesheet" href="dist/css/lightbox.min.css">
     <link
       href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css"
@@ -49,7 +51,7 @@
       <div class="bottombar">
         <nav>
           <li class="#nav_projects"><a href="#container_gallery">Projects</a></li>
-          <li clss="#nav_about_me"><a href="#about_me">About me</a></li>
+          <li clss="#nav_about_me"><a href="#about_me_first">About me</a></li>
           <li class="#nav_contact"><a href="#contact">Contact</a></li>
         </nav>
       </div>
@@ -176,7 +178,17 @@
 
         </div>
       </article>
-      <div id="about_me"></div>
+      <div class="beetwen_gallery_and_about"></div>
+      <div id="about_me_first">
+        <div class="about_me_space"></div>
+        <div class="about_me_first_upper"></div>
+        <div class="about_me_first_left">
+            <img src="images/about_me.png" alt="" />
+        </div>
+        <div class="about_me_first_right">
+          <h1>Kim Jestem?</h1>
+        </div>
+      </div>
       <div id="contact"></div>
     </div>
     <script src="dist/js/lightbox-plus-jquery.js"></script>
@@ -185,10 +197,8 @@
     <script>
       $(document).ready(function() {
         var NavY = $(".bottombar").offset().top;
-
         var stickyNav = function() {
           var ScrollY = $(window).scrollTop();
-
           if (ScrollY > NavY) {
             $(".bottombar").addClass("sticky");
             $(".bottombar").addClass("gradient");
@@ -199,9 +209,7 @@
             $(".bottombar_space").removeClass("space");
           }
         };
-
         stickyNav();
-
         $(window).scroll(function() {
           stickyNav();
         });
