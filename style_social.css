@@ -40,10 +40,6 @@
     border: 1px solid #303030;
 }
 
-.social:hover>li {
-    opacity: 0.5;
-}
-
 .social:hover>li:hover {
     opacity: 1;
 }
