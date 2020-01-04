@@ -32,3 +32,37 @@ function functionScroll() {
         document.getElementById("nav_contact").className = "nav_on";
     }
 }
+
+function onmouseover_icon_first(){
+
+    var value = document.getElementById("icon-circle-empty-first");
+    value.style.transition = "all 0.5s ease-in-out";
+    //value.style.fontSize = "30px";
+    value.style.color = "grey";
+}
+
+function onmouseout_icon_first(){
+
+    var value = document.getElementById("icon-circle-empty-first");
+    value.style.transition = "all 0.5s ease-in-out";
+    //value.style.fontSize = "20px";
+    value.style.color = "white";
+}
+
+function onmouseover_icon_second(){
+
+    var value = document.getElementById("icon-circle-empty-second");
+    value.style.transition = "all 0.5s ease-in-out";
+    //value.style.fontSize = "30px";
+    value.style.color = "grey";
+}
+
+function onmouseout_icon_second(){
+
+    var value = document.getElementById("icon-circle-empty-second");
+    value.style.transition = "all 0.5s ease-in-out";
+    //value.style.fontSize = "20px";
+    value.style.color = "white";
+}
+
+
