@@ -294,7 +294,7 @@ body {
 }
 
 .gradient {
-  background: rgba(255, 255, 255, 0.3)
+  background: rgba(255, 255, 255, 0.9)
 }
 
 #bottom_container {
@@ -408,4 +408,10 @@ nav a:hover:before {
 #contact {
   height: 850px;
   padding-top: 100px;
+}
+
+
+
+.opacity {
+  opacity: 0.5;
 }
