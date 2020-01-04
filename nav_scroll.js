@@ -3,7 +3,7 @@ window.onscroll = function() {functionScroll()};
 var vHome = 0;
 var vProjects = 1045;
 var vAboutMe = 2161;
-var vContacts = 2900;
+var vContacts = 3735;
 
 
 function functionScroll() {

@@ -12,6 +12,7 @@ body {
   font-size: 20px;
   margin: 0 !important;
   background-size: cover;
+  cursor: default;
 }
 
 #wrap {
@@ -427,3 +428,5 @@ nav a:hover:before {
   -ms-transform: scale(1.0);
   transform: scale(1.0);
 }
+
+

@@ -1,0 +1,3 @@
+
+.icon-circle:before { content: '\64'; } /* 'd' */
+.icon-circle-empty:before { content: '\f10c'; } /* '' */

@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="style_about_me.css" type="text/css" />
     <link rel="stylesheet" href="style_contact.css" type="text/css" />
     <link rel="stylesheet" href="style_social.css" type="text/css" />
+    <link rel="stylesheet" href="fontello/css/fontello.css" type="text/css" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <link rel="stylesheet" href="dist/css/lightbox.min.css">
@@ -79,7 +80,6 @@
             data-aos-duration="1000"
             data-aos-delay="500"
           >
-            <!-- <div class="gallery_title"><h1>PROJECTS</h1></div> -->
           </div>
           <div class="gallery_left">
             <div
@@ -203,7 +203,13 @@
       <div class ="about_me">
       <div id="about_me_first">
         <div class="about_me_space"></div>
-        <div class="about_me_first_upper"></div>
+        <div class="about_me_upper">
+          <div class="about_me_icon">
+            <div class="icon-circle"></div>
+            <div class="icon-circle-empty"></div>
+          </div>
+        </div>
+        <div style="clear:both"></div>
         <div
         data-aos="fade-right"
         data-aos-once="true"
@@ -238,10 +244,22 @@
         </div>
       </div>
       </div>
+      <div id="about_me_between"></div>
       <div id="about_me_second">
+        <div class="about_me_upper">
+          <div class="about_me_icon">
+           <div class="icon-circle-empty"></div>
+            <div class="icon-circle"></div>
+          </div> 
+        </div>
+        <div style="clear:both"></div>
         <div class="about_me_second_left">
+          <h1>Czym się zajmuję?</h1>
+          <p>Skupiam się na detalach i staram się doprowadzać projekt jak najbliżej perfekcji, używając do tego nowoczesnych technologii i materiałów. Zawsze szukam kreatywnych rozwiązań, które sukcesywnie wdrażam w moich projektach.</p>
+          <p>Uważam, że celem projektowania jest przekraczanie granic postawionych przez poprzednie pokolenia i urzeczywistnianie idei które kiedyś wydawały się nieosiągalne.</p>
         </div>
         <div class="about_me_second_right">
+          <img src="images/logo_aboutme.jpg" alt="" />
         </div>
       </div>
       </div>
@@ -261,9 +279,8 @@
     </div>
 
 
-    <!-- TEST -->
     <script src="nav_scroll.js"></script>
-    <!-- END TEST -->
+
 
     <script src="dist/js/lightbox-plus-jquery.js"></script>
     <script src="jquery.js"></script>

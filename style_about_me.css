@@ -5,11 +5,6 @@
   height: 100px;
 }
 
-.about_me_space {
-  widows: 100%;
-  height: 75px;
-
-}
 
 .about_me {
   background-color: black;
@@ -19,19 +14,21 @@
   margin-right: auto;
 }
 
+.about_me_space {
+  widows: 100%;
+  height: 75px;
+
+}
+
 #about_me_first {
   width: 1260px;
   height: 750px;
   margin-left: auto;
   margin-right: auto;
-  border: 1px solid red;
 }
 
 
-.about_me_first_upper {
-  width: 100%;
-  height: 40px;
-}
+
 
 .about_me_first_left {
   float: left;
@@ -55,21 +52,68 @@
   height: 80px;
 }
 
-.about_me_first_right_title h1 {
+#about_me_between{
+  height: 72px;
+}
+
+#about_me_second {
+  width: 1260px;
+  height: 760px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.about_me_second_left {
+  float: left;
+  width: 645px;
+  height: 620px;
+  margin-right: 5px;
+}
+
+.about_me_second_right {
+  float: left;
+  width: 570px;
+  height: 620px;
+}
+
+.about_me_second_right img{
+  width: 100%;
+}
+
+
+.about_me h1 {
   font-family: 'Montserrat', sans-serif;
   text-align: center;
   color: white;
   font-size: 50px;
   text-align: center;
-  letter-spacing: 6px;
-  word-spacing: 10px;
+  letter-spacing: 4px;
+  word-spacing: 8px;
+  margin-bottom: 50px;
 }
 
-
-
-.about_me_first_right_text p {
+.about_me p {
   font-family: 'Montserrat', sans-serif;
   color: white;
   text-align: justify;
   font-size: 25px;
+}
+
+.about_me_upper {
+  width: 100%;
+  height: 40px;
+  padding: 20px;
+  text-align: center;
+}
+
+.icon-circle-empty{
+  color:white;
+  display: inline;
+  
+}
+
+.icon-circle{
+  color:white;
+  display: inline;
+
 }
