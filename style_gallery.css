@@ -1,8 +1,8 @@
 #background_gallery {
   width: 100%;
   height: 1000px;
-  background: url(images/lines2.svg) no-repeat top center;
-  
+  background: url(images/lines2_animated.svg) no-repeat top center;
+
 }
 
 #container_gallery a:link {
