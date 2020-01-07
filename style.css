@@ -21,7 +21,7 @@ body {
 
 #header {
   width: 100%;
-  height: 870px;
+  height: 90vh;
   margin-left: auto;
   margin-right: auto;
   background: linear-gradient(rgba(100, 100, 100, 0.9), rgb(230, 230, 230)),
@@ -281,6 +281,7 @@ body {
 }
 
 .bottombar {
+  height: 10vh;
   width: 100%;
   text-align: center;
   background-color: rgb(230, 230, 230);
@@ -415,17 +416,7 @@ nav a:hover:before {
   }
 }
 
-
-/* ELEMENTY NAV */
-
-#nav_projects {}
-
-
-
-#between_aboutme_and_contact {}
-
-
 #contact {
-  height: 850px;
-  padding-top: 100px;
+  height: 100vh;
+  padding-top: 10vh;
 }
