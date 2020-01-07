@@ -1,5 +1,10 @@
 @import url(https://fonts.googleapis.com/css?family=Lato:100,300,400);
 
+#contact {
+    height: 100vh;
+    padding-top: 10vh;
+}
+
 input::-webkit-input-placeholder,
 textarea::-webkit-input-placeholder {
     color: #bdbdbd;
