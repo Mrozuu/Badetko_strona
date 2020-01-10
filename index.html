@@ -301,7 +301,6 @@
       </div>
       </div>
     </div>
-      <div id="contact">
         <div id="content">
           <div id="left">
             <div id="object1">
@@ -352,7 +351,6 @@
             </div>
           </div>
         </div>
-        </div>
       </div>
     </div>
 
@@ -362,6 +360,9 @@
 
     <script src="dist/js/lightbox-plus-jquery.js"></script>
     <script src="jquery.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.0/jquery.min.js"></script>
+<div></div>
+
 
     <script>
       $(document).ready(function() {
@@ -385,6 +386,7 @@
       });
     </script>
 
+
     <script>
       $("a").click(function() {
         $("html, body").animate(
@@ -395,6 +397,24 @@
         );
         return false;
       });
+    </script>
+
+<script>
+      var target = $('.about_me');
+var targetHeight = 3945;
+var downaboutme = 0.51;
+
+$(document).scroll(function (e) {
+    var scrollPercent = (targetHeight - window.scrollY) / targetHeight;
+
+console.log(window.pageYOffset);
+    if (scrollPercent <= 0.76) {
+        target.css('opacity', (1+(downaboutme-0.95*scrollPercent)*4));
+    }
+    if(scrollPercent <= 0.2735){
+      target.css('opacity',scrollPercent*3.7)
+    }
+});
     </script>
 
 

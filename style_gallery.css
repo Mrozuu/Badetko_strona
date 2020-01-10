@@ -1,10 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:200,200i,300,400&display=swap');
+
 #background_gallery {
   width: 100%;
   height: 100vh;
   background: url(images/lines2_animated.svg) no-repeat top center;
   background-size: 100%;
-
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
 }
+
+
 
 #container_gallery a:link {
   color: #fff;
@@ -42,7 +47,7 @@
 .gallery_title h1 {
   font-size: 30px;
   text-align: center;
-  color: black;
+  color: rgb(66, 64, 64);
   letter-spacing: 8px;
 }
 
