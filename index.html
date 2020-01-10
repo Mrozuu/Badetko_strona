@@ -400,20 +400,15 @@
     </script>
 
 <script>
-      var target = $('.about_me');
-var targetHeight = 3945;
-var downaboutme = 0.51;
+var target = $('.about_me'),
+  targetHeight = target.outerHeight();
 
-$(document).scroll(function (e) {
-    var scrollPercent = (targetHeight - window.scrollY) / targetHeight;
+$(document).scroll(function(e) {
+  var scrollPercent = (targetHeight - window.scrollY) / targetHeight;
 
-console.log(window.pageYOffset);
-    if (scrollPercent <= 0.76) {
-        target.css('opacity', (1+(downaboutme-0.95*scrollPercent)*4));
-    }
-    if(scrollPercent <= 0.2735){
-      target.css('opacity',scrollPercent*3.7)
-    }
+  if (scrollPercent >= 0) {
+    target.css('opacity', 1.1 - scrollPercent);
+  }
 });
     </script>
 
