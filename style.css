@@ -258,8 +258,7 @@ body {
     opacity: 0.25;
   }
 
-  100% {
-    transform: none;
+  100% {transform: none;
     opacity: 0.25;
   }
 }
