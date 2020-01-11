@@ -14,6 +14,9 @@ body {
   margin: 0 !important;
   background-size: cover;
   cursor: default;
+
+
+
 }
 
 #wrap {
@@ -318,7 +321,6 @@ nav {
   margin: 0;
   list-style-type: none;
   font-size: 18px;
-  line-height: 400%;
   display: inline-block;
 }
 
@@ -339,7 +341,7 @@ nav>li {
   height: 100%;
   float: left;
   width: 200px;
-  line-height: 350%;
+  line-height: 300%;
 }
 
 nav a:before {
@@ -424,4 +426,15 @@ nav a:hover:before {
 #contact {
   height: 100vh;
   padding-top: 10vh;
+}
+
+
+#e1 {
+  width: 100%;
+  height: 100vh;
+}
+
+#e2 {
+  width: 100%;
+  height: 100vh;
 }
