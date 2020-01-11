@@ -71,7 +71,6 @@
         </nav>
       </div>
       <div class="bottombar_space"></div>
-      <div id = "gallery_about_me">
       <article>
         <div id ="background_gallery">
         <div id="container_gallery"></a>
@@ -303,7 +302,7 @@
       </div>
     
   </div>
-</div>
+
         <div id="content">
           <div id="left">
             <div id="object1">
@@ -403,24 +402,9 @@
     </script>
 
 <script>
-<<<<<<< HEAD
-<<<<<<< HEAD
-var target = $('#gallery_about_me'),
-  targetHeight = target.outerHeight();
-=======
-      var target = $('.about_me');
-var targetHeight = 3945;
-var downaboutme = 0.51;
->>>>>>> parent of 5c052b6... KG #54
-=======
-      var target = $('.about_me');
-var targetHeight = 3945;
-var downaboutme = 0.51;
->>>>>>> parent of 5c052b6... KG #54
-
 $(document).scroll(function (e) {
     var scrollPercent = (targetHeight - window.scrollY) / targetHeight;
-
+    var target = $('.about_me'),
 console.log(window.pageYOffset);
     if (scrollPercent <= 0.76) {
         target.css('opacity', (1+(downaboutme-0.95*scrollPercent)*4));
