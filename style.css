@@ -425,3 +425,8 @@ nav a:hover:before {
   height: 100vh;
   padding-top: 10vh;
 }
+
+#gallery_about_me {
+  background-color: black;
+  opacity: 0;
+}
