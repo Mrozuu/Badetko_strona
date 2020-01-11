@@ -404,8 +404,7 @@
 <script>
 $(document).scroll(function (e) {
     var scrollPercent = (targetHeight - window.scrollY) / targetHeight;
-    var target = $('.about_me'),
-console.log(window.pageYOffset);
+    var target = $('.about_me');
     if (scrollPercent <= 0.76) {
         target.css('opacity', (1+(downaboutme-0.95*scrollPercent)*4));
     }
