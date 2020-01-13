@@ -54,8 +54,9 @@
         <div class="center">
           <div id="social-test">
           <ul class="social">
-            <li><i class="fa fa-facebook" aria-hidden="true"></i></li>
-            <a href="https://www.instagram.com/marcelbadetko/">
+            <a href="https://www.facebook.com/marcel.badetko" target="_blank">
+            <li><i class="fa fa-facebook" aria-hidden="true"></i></li></a>
+            <a href="https://www.instagram.com/marcelbadetko/" target="_blank">
             <li><i class="fa fa-instagram" aria-hidden="true"></i></li></a>
           </ul>
           </div>
@@ -96,7 +97,7 @@
 
                   <a href="images_gallery/butterkato/butterkato_1.jpg" data-lightbox="butterkato" data-title="">
                     <img
-                      src="images_gallery/butterkato/butterkato_thu.jpg"
+                      src="images_gallery/butterkato/butterkato_thu_vsco.jpg"
                       alt=""
                   />
                   <div class ="link"><p>Projekt Jeden</p></div></a>
@@ -116,7 +117,7 @@
               <div class="photo_two">
                 <div class="overlay">
                   <a href="images_gallery/amk/amk_1.jpg" data-lightbox="amk" data-title=""
-                  ><img src="images_gallery/amk/amk_thu.jpg" alt=""
+                  ><img src="images_gallery/amk/amk_thu_vsco.jpg" alt=""
                   />
                   <div class ="link"><p>Projekt Dwa</p></div></a>
                 </div>
@@ -138,7 +139,7 @@
               <div class="photo_three">
                 <div class="overlay">
                   <a href="images_gallery/omh/omh_1.jpg" data-lightbox="omh" data-title=""
-                  ><img src="images_gallery/omh/omh_thu.jpg" alt=""
+                  ><img src="images_gallery/omh/omh_thu_vsco.jpg" alt=""
                   />
                   <div class ="link"><p>Projekt Trzy</p></div></a>
                 </div>
@@ -158,7 +159,7 @@
               <div class="photo_four">
                 <div class="overlay">
                   <a href="images_gallery/ibs/ibs_1.jpg" data-lightbox="ibs" data-title=""
-                  ><img src="images_gallery/ibs/ibs_thu.jpg" alt=""
+                  ><img src="images_gallery/ibs/ibs_thu_vsco.jpg" alt=""
                   />
                   <div class ="link"><p>Projekt Cztery</p></div></a>
                 </div>
@@ -181,7 +182,7 @@
               <div class="photo_five">
                 <div class="overlay">
                   <a href="images_gallery/bms/bms_1.jpg" data-lightbox="bms" data-title=""
-                  ><img src="images_gallery/bms/bms_thu.jpg" alt=""
+                  ><img src="images_gallery/bms/bms_thu_vsco.jpg" alt=""
                   />
                   <div class ="link"><p>Projekt Pięć</p></div></a>
                 </div>
@@ -348,6 +349,7 @@
                             <br/> 
                           </p>
                         </div>
+        
                       </div>
                     </div>
             </div>
@@ -358,7 +360,6 @@
 
 
     <script src="nav_scroll.js"></script>
-    <script src="test.js"></script>
 
 
     <script src="dist/js/lightbox-plus-jquery.js"></script>
@@ -410,11 +411,17 @@ $(document).scroll(function(e) {
   var scrollPercent = (targetHeight - window.scrollY) / targetHeight;
 
   if (scrollPercent >= 0) {
-    target.css('opacity', 1 - scrollPercent);
+    target.css('opacity', 1.1 - scrollPercent);
   }
 });
-    </script>
-
-
+</script>
+<script>
+  function createImage() {
+var par = document.getElementsByClassName("background_gallery")[0];
+var img = document.createElement('img');
+img.src = 'images/lines2_animated.svg';
+par.appendChild(img);
+}
+</script>
   </body>
 </html>
