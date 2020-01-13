@@ -225,7 +225,7 @@ textarea:hover {
     -webkit-perspective: 150rem;
     perspective: 150rem;
     height: 20rem;
-    width: 30rem;
+    width: 28rem;
     position: relative;
 }
 
@@ -236,7 +236,7 @@ textarea:hover {
     top: 0;
     left: 0;
     margin: auto;
-    width: 30rem;
+    width: 28rem;
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
     border-radius: 3px;
@@ -265,14 +265,19 @@ textarea:hover {
 }
 
 .card__cont {
-    padding-top: 30px;
+    position: absolute;
+    width: 100%;
     background-color: #1c1c1c;
     display: flex;
     align-items: center;
     justify-content: center;
-    text-align: center;
-    max-width: 100%;
-    height: auto;
+    overflow: hidden;
+}
+
+.card__cont img {
+    flex-shrink: 0;
+    min-width: 100%;
+    min-height: 100%
 }
 
 .card__cta {
@@ -281,8 +286,14 @@ textarea:hover {
     left: 50%;
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
-    width: 90%;
+    width: 100%;
     color: white;
+}
+
+.card__cta img {
+    flex-shrink: 0;
+    min-width: 100%;
+    min-height: 100%
 }
 
 .card__cta p {
