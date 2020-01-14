@@ -42,6 +42,7 @@
   height: 8vh;
   font-size: 8vh;
   color: #1c1c1c;
+  text-shadow: 0 0 10px rgb(94, 94, 94);
 }
 
 .gallery_title h1 {
