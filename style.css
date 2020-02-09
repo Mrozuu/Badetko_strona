@@ -415,19 +415,3 @@ nav a:hover:before {
     animation: show 0.2s #{$i * 0.1+1}s ease 1 both;
   }
 }
-
-#contact {
-  height: 100vh;
-  padding-top: 10vh;
-}
-
-
-#e1 {
-  width: 100%;
-  height: 100vh;
-}
-
-#e2 {
-  width: 100%;
-  height: 100vh;
-}
