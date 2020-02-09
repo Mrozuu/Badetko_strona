@@ -15,17 +15,17 @@
 
 #left {
     float: left;
-    padding-left: 5vh;
+    padding-left: 5%;
 }
 
 #right {
     float: right;
-    padding-right: 5vh;
+    padding-right: 5%;
 }
 
 #object1 {
-    height: 80vh;
-    padding-top: 20vh;
+    height: 75vh;
+    padding-top: 25vh;
 }
 
 input::-webkit-input-placeholder,
@@ -215,7 +215,8 @@ textarea:hover {
 /*ZACZYNA SIE WIZYTOWKA!!!!!!!!!!!!!!!! */
 
 .content2 {
-    height: 100vh;
+    height: 88vh;
+    padding-top: 12vh;
     color: white;
     display: flex;
     justify-content: center;
