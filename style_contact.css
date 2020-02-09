@@ -247,13 +247,20 @@ textarea:hover {
 }
 
 .card__side--front {
-    background-color: #1c1c1c;
+    background-image: url('images/wizytowka.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .card__side--back {
+    background-color: rgb(63, 64, 65);
+    background-image: url('images/wizytowka.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     -webkit-transform: rotateY(180deg);
     transform: rotateY(180deg);
-    background-color: #1c1c1c;
 }
 
 .card:hover .card__side--front {
@@ -264,44 +271,4 @@ textarea:hover {
 .card:hover .card__side--back {
     -webkit-transform: rotateY(0deg);
     transform: rotateY(0deg);
-}
-
-.card__cont {
-    position: absolute;
-    width: 100%;
-    background-color: #1c1c1c;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    overflow: hidden;
-}
-
-.card__cont img {
-    flex-shrink: 0;
-    min-width: 100%;
-    min-height: 100%
-}
-
-.card__cta {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    width: 100%;
-    color: white;
-}
-
-.card__cta img {
-    flex-shrink: 0;
-    min-width: 100%;
-    min-height: 100%
-}
-
-.card__cta p {
-    margin-left: 1rem;
-}
-
-.card__cta p>.space {
-    margin-left: 2rem;
 }
