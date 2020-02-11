@@ -6,6 +6,12 @@ html {
   width: 100%;
 }
 
+* {
+  outline: 1px solid red;
+  opacity: 1 !important;
+  visibility: visible !important;
+}
+
 body {
   background-color: rgb(230, 230, 230);
   color: #ffffff;
@@ -278,7 +284,6 @@ body {
 
 
 .sticky {
-  width: 100%;
   position: fixed;
   left: 0;
   top: 0;
@@ -286,6 +291,8 @@ body {
 }
 
 .bottombar {
+  padding: 0;
+  margin: 0;
   height: 8vh;
   width: 100%;
   text-align: center;
