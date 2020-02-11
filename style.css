@@ -6,12 +6,6 @@ html {
   width: 100%;
 }
 
-* {
-  outline: 1px solid red;
-  opacity: 1 !important;
-  visibility: visible !important;
-}
-
 body {
   background-color: rgb(230, 230, 230);
   color: #ffffff;
@@ -49,6 +43,11 @@ body {
 }
 
 /* ANIMACJA IMIENIA */
+.name {
+  width: 90vw;
+  padding-right: 5vw;
+  padding-left: 5vw;
+}
 
 #header h1 {
   font-family: 'Raleway', sans-serif;
