@@ -287,6 +287,11 @@ body {
   z-index: 100;
 }
 
+.sticky_none {
+  background-color: red;
+  opacity: 0;
+}
+
 .bottombar {
   padding: 0;
   margin: 0;

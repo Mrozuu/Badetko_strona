@@ -331,14 +331,36 @@
 
 
     <script>
+      function vh(v) {
+        var h = Math.max(document.documentElement.clientHeight, window.innerHeight || 0);
+        return (v * h) / 100;
+      }
+
+      var vAboutMe = vh(195);
+      var vContacts = vh(395);
+
       $(document).ready(function() {
         var NavY = $(".bottombar").offset().top;
+        console.log(NavY);
         var stickyNav = function() {
           var ScrollY = $(window).scrollTop();
-          if (ScrollY > NavY) {
+          if (ScrollY > NavY && ScrollY<vAboutMe) {
             $(".bottombar").addClass("sticky");
             $(".bottombar_space").addClass("space");
-          } else {
+            $(".bottombar").removeClass("sticky_none");
+          }
+          else if (ScrollY>vAboutMe && ScrollY<vContacts)
+          {
+            $(".bottombar").addClass("sticky_none");
+          } 
+          else if (ScrollY>vContacts+250)
+          {
+            $(".bottombar").addClass("sticky");
+            $(".bottombar_space").addClass("space");
+            $(".bottombar").removeClass("sticky_none");
+          } 
+          else {
+            $(".bottombar").removeClass("sticky_none");
             $(".bottombar").removeClass("sticky");
             $(".bottombar_space").removeClass("space");
           }
