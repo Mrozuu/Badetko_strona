@@ -1,196 +1,198 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway:200,200i,300,400&display=swap');
 
-#background_gallery {
-  width: 100%;
-  height: 100vh;
-  font-family: 'Raleway', sans-serif;
-  font-weight: 400;
-}
+@media only screen and (min-width: 961px) {
+  #background_gallery {
+    width: 100%;
+    height: 100vh;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+  }
 
 
-#container_gallery a:link {
-  color: #fff;
-  text-decoration: none;
-}
+  #container_gallery a:link {
+    color: #fff;
+    text-decoration: none;
+  }
 
-#container_gallery a:visited {
-  color: #fff;
-}
+  #container_gallery a:visited {
+    color: #fff;
+  }
 
-#container_gallery a:hover {
-  color: #fff;
-}
+  #container_gallery a:hover {
+    color: #fff;
+  }
 
-#container_gallery a:active {
-  color: #fff;
-}
+  #container_gallery a:active {
+    color: #fff;
+  }
 
-#container_gallery {
-  padding-top: 7vh;
-  padding-bottom: 5vh;
-  height: 88vh;
-  margin-left: auto;
-  margin-right: auto;
-  width: 1260px;
-  text-align: center;
-}
+  #container_gallery {
+    padding-top: 7vh;
+    padding-bottom: 5vh;
+    height: 88vh;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1260px;
+    text-align: center;
+  }
 
-.gallery_title {
-  width: 100%;
-  height: 8vh;
-  font-size: 8vh;
-  color: #1c1c1c;
-}
+  .gallery_title {
+    width: 100%;
+    height: 8vh;
+    font-size: 8vh;
+    color: #1c1c1c;
+  }
 
-.gallery_title h1 {
-  font-size: 45px;
-  text-align: center;
-  color: rgb(66, 64, 64);
-  letter-spacing: 8px;
-  font-family: 'Raleway', sans-serif;
-  font-weight: 300;
-}
+  .gallery_title h1 {
+    font-size: 45px;
+    text-align: center;
+    color: rgb(66, 64, 64);
+    letter-spacing: 8px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+  }
 
-.gallery_left {
-  float: left;
-  width: 830px;
-  height: 80vh;
-}
+  .gallery_left {
+    float: left;
+    width: 830px;
+    height: 80vh;
+  }
 
-.photo_one {
-  float: left;
-  width: 385px;
-  height: 290px;
-  margin-right: 5px;
-  margin-bottom: 5px;
-  overflow: hidden;
-}
+  .photo_one {
+    float: left;
+    width: 385px;
+    height: 290px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    overflow: hidden;
+  }
 
-.photo_one img {
-  width: 390px;
-  height: 290px;
-  transition: all 0.5s ease-in-out;
-}
+  .photo_one img {
+    width: 390px;
+    height: 290px;
+    transition: all 0.5s ease-in-out;
+  }
 
-.photo_one:hover img {
-  -webkit-transform: scale(1.1);
-  -ms-transform: scale(1.1);
-  transform: scale(1.1);
-}
+  .photo_one:hover img {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+  }
 
-.photo_two {
-  float: left;
-  width: 425px;
-  height: 290px;
-  margin-left: 5px;
-  margin-bottom: 5px;
-  overflow: hidden;
-}
+  .photo_two {
+    float: left;
+    width: 425px;
+    height: 290px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    overflow: hidden;
+  }
 
-.photo_two img {
-  width: 425px;
-  height: 290px;
-  transition: all 0.5s ease-in-out;
-}
+  .photo_two img {
+    width: 425px;
+    height: 290px;
+    transition: all 0.5s ease-in-out;
+  }
 
-.photo_two:hover img {
-  -webkit-transform: scale(1.1);
-  -ms-transform: scale(1.1);
-  transform: scale(1.1);
-}
+  .photo_two:hover img {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+  }
 
-.photo_three {
-  float: left;
-  width: 330px;
-  height: 295px;
-  margin-right: 5px;
-  margin-top: 5px;
-  overflow: hidden;
-}
+  .photo_three {
+    float: left;
+    width: 330px;
+    height: 295px;
+    margin-right: 5px;
+    margin-top: 5px;
+    overflow: hidden;
+  }
 
-.photo_three img {
-  width: 330px;
-  height: 295px;
-  transition: all 0.5s ease-in-out;
-}
+  .photo_three img {
+    width: 330px;
+    height: 295px;
+    transition: all 0.5s ease-in-out;
+  }
 
-.photo_three:hover img {
-  -webkit-transform: scale(1.1);
-  -ms-transform: scale(1.1);
-  transform: scale(1.1);
-}
+  .photo_three:hover img {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+  }
 
-.photo_four {
-  float: left;
-  width: 480px;
-  height: 295px;
-  margin-left: 5px;
-  margin-top: 5px;
-  overflow: hidden;
-}
+  .photo_four {
+    float: left;
+    width: 480px;
+    height: 295px;
+    margin-left: 5px;
+    margin-top: 5px;
+    overflow: hidden;
+  }
 
-.photo_four img {
-  width: 480px;
-  height: 295px;
-  transition: all 0.5s ease-in-out;
-}
+  .photo_four img {
+    width: 480px;
+    height: 295px;
+    transition: all 0.5s ease-in-out;
+  }
 
-.photo_four:hover img {
-  -webkit-transform: scale(1.1);
-  -ms-transform: scale(1.1);
-  transform: scale(1.1);
-}
+  .photo_four:hover img {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+  }
 
-.gallery_right {
-  float: left;
-  width: 420px;
-  height: 595px;
-  margin-top: 0px;
-  margin-left: 0px;
-}
+  .gallery_right {
+    float: left;
+    width: 420px;
+    height: 595px;
+    margin-top: 0px;
+    margin-left: 0px;
+  }
 
-.photo_five {
-  float: left;
-  width: 100%;
-  height: 595px;
-  overflow: hidden;
-}
+  .photo_five {
+    float: left;
+    width: 100%;
+    height: 595px;
+    overflow: hidden;
+  }
 
-.photo_five img {
-  height: 100%;
-  width: 100%;
-  transition: all 0.5s ease-in-out;
-}
+  .photo_five img {
+    height: 100%;
+    width: 100%;
+    transition: all 0.5s ease-in-out;
+  }
 
-.photo_five:hover img {
-  -webkit-transform: scale(1.1);
-  -ms-transform: scale(1.1);
-  transform: scale(1.1);
-}
+  .photo_five:hover img {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+  }
 
-.overlay {
-  position: relative;
-  width: 100%;
-  height: 100%;
-}
+  .overlay {
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
 
-.overlay .link {
-  position: absolute;
-  display: block;
-  width: 100%;
-  height: 50px;
-  background-color: #111;
-  left: 0px;
-  bottom: 0px;
-  opacity: 0;
-  transition: opacity 0.5s ease-in-out;
+  .overlay .link {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 50px;
+    background-color: #111;
+    left: 0px;
+    bottom: 0px;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
 
-}
+  }
 
-.overlay .link p {
-  line-height: 5px;
-}
+  .overlay .link p {
+    line-height: 5px;
+  }
 
-.overlay:hover .link {
-  opacity: 0.8;
+  .overlay:hover .link {
+    opacity: 0.8;
+  }
 }
