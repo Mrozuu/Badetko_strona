@@ -358,6 +358,8 @@
           else if (ScrollY>vAboutMe && ScrollY<vContacts)
           {
             $(".bottombar").addClass("sticky_none");
+            $(".bottombar_space").removeClass("space");
+            $(".bottombar").removeClass("sticky");
           } 
           else if (ScrollY>vContacts+250)
           {
