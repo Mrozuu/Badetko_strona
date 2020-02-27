@@ -3,11 +3,11 @@
 
 @media only screen and (max-width: 400px) {
   body {
-    background-color: rgb(230, 230, 230);
-    color: #ffffff;
     font-family: "Lato", sans-serif;
     font-size: 20px;
     margin: 0;
+    padding: 0;
+    border: 0;
     background-size: cover;
     cursor: default;
   }
@@ -17,17 +17,14 @@
   }
 
   .contener {
+    background: radial-gradient(rgba(255, 255, 255, 0.9), rgb(116, 116, 116));
     height: 100vh;
-    width: 100%;
-    background-color: rgb(202, 202, 202);
+    width: 100vw;
   }
 
-  .name {
-    width: 100%;
-  }
+
 
   #header_mobile h1 {
-    width: 100%;
     font-family: 'Raleway', sans-serif;
     font-weight: 400;
     font-size: 30px;
@@ -50,8 +47,6 @@
     color: #f16f6f;
     animation: glitch3 2.5s infinite;
   }
-
-  #header_mobile img {}
 
   @keyframes glitch1 {
     0% {
@@ -253,11 +248,10 @@
   .logo {
     margin-left: auto;
     margin-right: auto;
-    width: 80vw;
-    padding-top: 30px;
+    width: 50vw;
+    padding-top: 130px;
     padding-bottom: 50px;
   }
-
 
   .prop {
     font-family: 'Raleway', sans-serif;
@@ -273,6 +267,7 @@
   #mobile {
     display: none;
   }
+
 
   html {
     height: 100%;
@@ -296,6 +291,7 @@
   }
 
   #header {
+    border: blue solid 1px;
     width: 100%;
     height: 92vh;
     margin-left: auto;
@@ -314,11 +310,6 @@
   }
 
   /* ANIMACJA IMIENIA */
-  .name {
-    width: 90vw;
-    padding-right: 5vw;
-    padding-left: 5vw;
-  }
 
   #header h1 {
     font-family: 'Raleway', sans-serif;
@@ -543,6 +534,11 @@
     }
   }
 
+  .name {
+    width: 98vw;
+    border: blue solid 1px;
+  }
+
   /* KONIEC ANIMACJI IMIENIA */
   .prop {
     font-family: 'Raleway', sans-serif;
@@ -647,8 +643,6 @@
     -ms-transform: scale(1.0);
     transform: scale(1.0);
   }
-
-
 
 
   @keyframes in {
