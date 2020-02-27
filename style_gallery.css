@@ -16,6 +16,10 @@
     margin: 1em;
   }
 
+  .mobile_gallery_title{
+    margin: 20px;
+  }
+
   .mobile_gallery_title h1 {
     border: 0;
     padding: 0;
@@ -65,18 +69,41 @@
 
   .gallery_card {
     width: 100vw;
-    height: 80vh;
+    height: 100vh;
+    background: white;
+  }
+
+  .gallery_card_img{
+    height: 70%;
     background: black;
   }
 
-  .gallery_card_space {
-    width: 20px;
-    border: 1px solid red;
+  .gallery_card_sign{
+    padding: 20px;
+    height: 30%;
+  }
+
+  .gallery_card_sign h1{
+    color: black;
+    font-size: 26px;
+    letter-spacing: 2px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;  
+  }
+
+  .gallery_card_sign h2{
+      color: black;
+      font-size: 20px;
+      letter-spacing: 2px;
+      font-family: 'Raleway', sans-serif;
+      font-weight: 200;  
+  }
+
 
   }
 
   .gallery_card img {
-    max-height: 100%;
+    max-width: 100%;
   }
 
   .scrolling-wrapper,
