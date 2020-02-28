@@ -43,3 +43,7 @@
 .social:hover>li:hover {
     opacity: 1;
 }
+
+#social-test a{
+    text-decoration: none;
+}
