@@ -22,6 +22,9 @@
   }
 
 
+  #header_mobile {
+    height: 100vh;
+  }
 
   #header_mobile h1 {
     font-family: 'Raleway', sans-serif;
