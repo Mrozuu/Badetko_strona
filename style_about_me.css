@@ -9,6 +9,7 @@
     font-family: 'Raleway', sans-serif;
     font-weight: 400;
     background: url(images/logo_white.svg) no-repeat fixed;
+    background-color: rgb(179, 179, 179);
     background-size: 140% 160%;
   }
 
