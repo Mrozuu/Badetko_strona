@@ -17,7 +17,6 @@
   }
 
   .contener {
-    background: radial-gradient(rgba(255, 255, 255, 0.9), rgb(116, 116, 116));
     height: 100vh;
     width: 100vw;
   }
@@ -275,7 +274,7 @@
   }
 
   body {
-    background-color: rgb(230, 230, 230);
+    background-color: rgb(180, 180, 180);
     color: #ffffff;
     font-family: "Lato", sans-serif;
     font-size: 20px;
@@ -285,13 +284,12 @@
   }
 
   #wrap {
+    background: url(images/tlo4.svg)no-repeat fixed;
     width: 100%;
-    background: radial-gradient(rgba(255, 255, 255, 0.9), rgb(110, 110, 110));
     background-size: 100%;
   }
 
   #header {
-    border: blue solid 1px;
     width: 100%;
     height: 92vh;
     margin-left: auto;
@@ -536,7 +534,6 @@
 
   .name {
     width: 98vw;
-    border: blue solid 1px;
   }
 
   /* KONIEC ANIMACJI IMIENIA */
