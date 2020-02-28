@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Oswald:500");
 @import url('https://fonts.googleapis.com/css?family=Raleway:300,400,400i,700&display=swap');
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 960px) {
   body {
     font-family: "Lato", sans-serif;
     font-size: 20px;
