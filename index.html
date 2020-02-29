@@ -13,6 +13,7 @@
   <link rel="stylesheet" href="style_about_me.css" type="text/css" />
   <link rel="stylesheet" href="style_contact.css" type="text/css" />
   <link rel="stylesheet" href="style_social.css" type="text/css" />
+  <link rel="stylesheet" href="style_menu.css" type="text/css" />
   <link rel="stylesheet" href="fontello/css/fontello.css" type="text/css" />
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
@@ -264,6 +265,20 @@
   <div id="mobile">
     <div class="contener">
       <div id="header_mobile">
+        <div id="menu-bar">
+          <div id="menu" onclick="onClickMenu()">
+            <div id="bar1" class="bar"></div>
+            <div id="bar2" class="bar"></div>
+            <div id="bar3" class="bar"></div>
+          </div>
+          <ul class="nav" id="nav">
+            <li><a href="#header_mobile">Home</a></li>
+            <li><a href=".mobile_gallery_title">Projects</a></li>
+            <li><a href="#">About Me</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+        <div class="menu-bg" id="menu-bg"></div>
         <div class="logo">
           <img src="images/LOGO3_animated.svg" />
         </div>
@@ -411,7 +426,7 @@
   <script src="dist/js/lightbox-plus-jquery.js"></script>
   <script src="jquery.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.0/jquery.min.js"></script>
-
+  <script src="ham_menu.js"></script>
 
   <script>
     function vh(v) {
