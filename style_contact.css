@@ -1,11 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:400,700,900&display=swap');
 
-#topper {
-    height: 1vh;
-    width: 100%;
-    background-color: black;
-}
-
 #content {
     overflow-y: auto;
     overflow-x: hidden;
@@ -19,7 +13,7 @@
 }
 
 #left {
-    height: 89vh;
+    height: 90vh;
     float: left;
     padding-left: 5vw;
 }
@@ -145,7 +139,7 @@
     padding-left: 10vw;
     font-weight: 900;
     font-size: 5.5em;
-    margin-top: 0;
+    margin-top: 2vh;
 }
 
 #right h2 {
