@@ -536,7 +536,9 @@
   }
 
   .name {
-    width: 98vw;
+    text-align: center;
+    padding-left: 5vw;
+    width: 90vw;
   }
 
   /* KONIEC ANIMACJI IMIENIA */
