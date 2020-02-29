@@ -152,7 +152,12 @@
     font-weight: 700;
     margin-top: 5vh;
     font-size: 3em;
-    animation: text_animation 2.5s;
+    transition: 0.5s ease-in-out;
+}
+
+#right h2:hover {
+    background-color: black;
+    color: white;
 }
 
 .contact_bar {
@@ -161,17 +166,15 @@
     background-color: rgb(66, 64, 64);
     display: block;
     border-radius: 5px;
-    transition: 0.3s ease;
+    animation: bar_animation 3s;
 }
 
-@keyframes text_animation {
+@keyframes bar_animation {
     0% {
-        background-color: white;
-        color: black;
+        width: 0%;
     }
 
     100% {
-        background-color: black;
-        color: white;
+        width: 40%;
     }
 }
