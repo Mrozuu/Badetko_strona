@@ -1,10 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:400,700,900&display=swap');
 
-#topper {
-    height: 1vh;
-    width: 100%;
-    background-color: black;
-}
 
 #content {
     overflow-y: auto;
@@ -19,7 +14,7 @@
 }
 
 #left {
-    height: 89vh;
+    height: 90vh;
     float: left;
     padding-left: 5vw;
 }
@@ -152,7 +147,12 @@
     font-weight: 700;
     margin-top: 5vh;
     font-size: 3em;
-    animation: text_animation 2.5s;
+    transition: all 2s, color 1s;
+}
+
+#right h2:hover {
+    background-color: black;
+    color: white;
 }
 
 .contact_bar {
@@ -162,16 +162,4 @@
     display: block;
     border-radius: 5px;
     transition: 0.3s ease;
-}
-
-@keyframes text_animation {
-    0% {
-        background-color: white;
-        color: black;
-    }
-
-    100% {
-        background-color: black;
-        color: white;
-    }
 }
