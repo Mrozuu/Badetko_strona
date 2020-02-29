@@ -1,4 +1,6 @@
 #menu {
+    top: 0;
+    position: fixed;
     width: 35px;
     height: 30px;
     margin: 30px 0 20px 20px;
@@ -36,6 +38,26 @@
     padding: 16px 0;
 }
 
+.nav li:nth-child(1) {
+    top: 50px;
+    position: fixed;
+}
+
+.nav li:nth-child(2) {
+    top: 100px;
+    position: fixed;
+}
+
+.nav li:nth-child(3) {
+    top: 150px;
+    position: fixed;
+}
+
+.nav li:nth-child(4) {
+    top: 200px;
+    position: fixed;
+}
+
 .nav {
     padding: 0;
     margin: 0 20px;
@@ -65,6 +87,8 @@
 }
 
 .change-bg {
+    top: 0;
+    position: fixed;
     width: 550px;
     height: 550px;
     transform: translate(-60%, -30%);
