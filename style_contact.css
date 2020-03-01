@@ -22,7 +22,7 @@
     display: block;
     margin: auto;
     max-width: 40vw;
-    padding-top: 10vh;
+    padding-top: 5vh;
 }
 
 #footer {
@@ -121,7 +121,7 @@
 }
 
 .content_text {
-    padding-top: 30px;
+    padding-top: 3vh;
 }
 
 .content_head {
