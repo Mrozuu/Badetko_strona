@@ -23,6 +23,7 @@ function vmax(v) {
 var vProjects = vh(95);
 var vAboutMe = vh(195);
 var vContacts = vh(395);
+var vContacts2 = vh(450);
 
 function functionScroll() {
     if (document.documentElement.scrollTop < vProjects) {
@@ -48,6 +49,14 @@ function functionScroll() {
         document.getElementById("nav_projects").className = "nav_off";
         document.getElementById("nav_about_me").className = "nav_off";
         document.getElementById("nav_contact").className = "nav_on";
+    }
+
+    if (document.documentElement.scrollTop > vContacts2) {
+        console.log("1");
+        document.getElementById("content_head_animation").className = "content_head_animation";
+        document.getElementById("content_bar_animation1").className = "content_bar_animation";
+        document.getElementById("content_bar_animation2").className = "content_bar_animation";
+        document.getElementById("content_bar_animation3").className = "content_bar_animation";
     }
 }
 
