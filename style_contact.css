@@ -21,7 +21,7 @@
 #left img {
     display: block;
     margin: auto;
-    max-width: 35vw;
+    max-width: 40vw;
     padding-top: 10vh;
 }
 
@@ -144,16 +144,16 @@
 
 #right h2 {
     font-weight: 700;
-    margin-top: 5vh;
+    margin-top: 0;
     font-size: 3em;
     padding-left: 2vw;
 }
 
-.content_head_animation{
+.content_head_animation {
     animation: 4s ease-out 0s 1 text_animation forwards;
 }
 
-.content_bar_animation{
+.content_bar_animation {
     animation: 3s ease-out 0s 1 bar_animation forwards;
 
 }
@@ -175,7 +175,7 @@
     100% {
         width: 40%;
         background-color: rgb(66, 64, 64);
-        
+
     }
 }
 
