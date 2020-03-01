@@ -75,6 +75,7 @@ function functionScroll() {
     document.getElementById("content_bar_animation3").className =
       "content_bar_animation";
   }
+}
 
 function onmouseover_icon_first() {
   var value = document.getElementById("icon-circle-empty-first");
