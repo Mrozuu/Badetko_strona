@@ -23,7 +23,7 @@ function vmax(v) {
 var vProjects = vh(95);
 var vAboutMe = vh(195);
 var vContacts = vh(395);
-var vContacts2 = vh(450);
+var vContacts2 = vh(400);
 
 function functionScroll() {
     if (document.documentElement.scrollTop < vProjects) {
@@ -52,7 +52,8 @@ function functionScroll() {
     }
 
     if (document.documentElement.scrollTop > vContacts2) {
-        console.log("1");
+    //if($('#content').is(':visible')){
+       // console.log("1");
         document.getElementById("content_head_animation").className = "content_head_animation";
         document.getElementById("content_bar_animation1").className = "content_bar_animation";
         document.getElementById("content_bar_animation2").className = "content_bar_animation";
