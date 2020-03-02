@@ -9,7 +9,7 @@
     font-family: 'Raleway', sans-serif;
     font-weight: 400;
     background: url(images/logo_white.svg) no-repeat fixed;
-    background-color: rgb(211, 211, 211);
+    background-color: rgb(0, 0, 0);
     background-size: 140% 160%;
   }
 
@@ -27,7 +27,7 @@
     margin-left: auto;
     margin-right: auto;
     max-width: 832px;
-    color: white;
+    color: rgb(255, 255, 255);
   }
 
   .cont {
@@ -53,7 +53,7 @@
   }
 
   .about_me_text {
-    color: black;
+    color: rgb(255, 255, 255);
     padding-top: 30px;
   }
 

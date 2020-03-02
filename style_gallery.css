@@ -3,7 +3,7 @@
 
 @media only screen and (max-width: 960px) {
   .content {
-    background: #fff;
+    background: rgb(255, 255, 255);
     color: #333;
     padding: 20px;
     margin-top: 30px;
