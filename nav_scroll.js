@@ -29,12 +29,17 @@ function vmax(v) {
 var vProjects = vh(95);
 var vAboutMe = vh(195);
 var vContacts = vh(395);
-var vContacts2 = document.getElementById('fullsite').offsetHeight - document.getElementById('content').offsetHeight - vh(50);
-var vContacts3 = document.getElementById('fullsite').offsetHeight - document.getElementById('content').offsetHeight - vh(40);
-
+var vContacts2 =
+  document.getElementById("fullsite").offsetHeight -
+  document.getElementById("content").offsetHeight -
+  vh(50);
+var vContacts3 =
+  document.getElementById("fullsite").offsetHeight -
+  document.getElementById("content").offsetHeight -
+  vh(40);
 
 function functionScroll() {
-  console.log(document.documentElement.scrollTop)
+  console.log(document.documentElement.scrollTop);
   if (document.documentElement.scrollTop < vProjects) {
     document.getElementById("nav_home").className = "nav_on";
     document.getElementById("nav_projects").className = "nav_off";
@@ -72,11 +77,18 @@ function functionScroll() {
   }
   if (document.documentElement.scrollTop > vContacts3) {
     document.getElementById("content_bar_animation1").className =
-     "content_bar_animation";
+      "content_bar_animation";
     document.getElementById("content_bar_animation2").className =
-     "content_bar_animation";
+      "content_bar_animation";
     document.getElementById("content_bar_animation3").className =
       "content_bar_animation";
+  }
+
+  //mobilna
+  var vContactsM = vh(400);
+  if (document.documentElement.scrollTop > vContactsM) {
+    document.getElementById("content_head_animation_m").className =
+      "content_head_animation";
   }
 }
 
