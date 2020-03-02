@@ -181,7 +181,7 @@
       </div>
     </div>
 
-    <div class="about_me">
+    <div class="about_me" id = "about_me">
       <div class="about_me_cont">
         <h1 class="about_me_text">KIM JESTEM?</h1>
         <div data-aos="fade-right" data-aos-once="true" data-aos-duration="1000" data-aos-delay="500">
@@ -465,7 +465,7 @@
 
     $(document).ready(function () {
       var NavY = $(".bottombar").offset().top;
-      console.log(NavY);
+     // console.log(NavY);
       var stickyNav = function () {
         var ScrollY = $(window).scrollTop();
         if (ScrollY > NavY && ScrollY < vAboutMe) {

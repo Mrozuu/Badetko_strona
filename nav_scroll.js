@@ -29,9 +29,12 @@ function vmax(v) {
 var vProjects = vh(95);
 var vAboutMe = vh(195);
 var vContacts = vh(395);
-var vContacts2 = vh(400);
+var vContacts2 = document.getElementById('fullsite').offsetHeight - document.getElementById('content').offsetHeight - vh(50);
+var vContacts3 = document.getElementById('fullsite').offsetHeight - document.getElementById('content').offsetHeight - vh(40);
+
 
 function functionScroll() {
+  console.log(document.documentElement.scrollTop)
   if (document.documentElement.scrollTop < vProjects) {
     document.getElementById("nav_home").className = "nav_on";
     document.getElementById("nav_projects").className = "nav_off";
@@ -66,10 +69,12 @@ function functionScroll() {
   if (document.documentElement.scrollTop > vContacts2) {
     document.getElementById("content_head_animation").className =
       "content_head_animation";
+  }
+  if (document.documentElement.scrollTop > vContacts3) {
     document.getElementById("content_bar_animation1").className =
-      "content_bar_animation";
+     "content_bar_animation";
     document.getElementById("content_bar_animation2").className =
-      "content_bar_animation";
+     "content_bar_animation";
     document.getElementById("content_bar_animation3").className =
       "content_bar_animation";
   }
