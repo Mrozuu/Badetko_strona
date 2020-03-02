@@ -38,8 +38,8 @@
   <script>
     AOS.init();
   </script>
-  <div id="fullsite">
 
+  <div id="fullsite">
     <div id="wrap">
       <div id="header_bottom_bar">
         <div id="header">
@@ -244,7 +244,7 @@
 
     <div id="content">
       <div id="left">
-        <img src="images/marcel_face_animated.svg">
+          <img src = "images/marcel_face_animated.svg">
       </div>
       <div id="right">
         <h1 class="content_head">CONTACT US</h1>
@@ -263,7 +263,12 @@
       <div style="clear: both;"></div>
       <div id="footer"></div>
     </div>
+    <div class = "loader-wrapper">
+      <span class = "loader"><span class = "loader-inner"></span></span>
+    </div>
   </div>
+
+
 
   <div id="mobile">
     <div class="contener">
@@ -426,6 +431,7 @@
     </div>
   </div>
 
+
   <script src="nav_scroll.js"></script>
 
 
@@ -433,6 +439,8 @@
   <script src="jquery.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.0/jquery.min.js"></script>
   <script src="ham_menu.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+  <script src="jquery.drawsvg.js"></script>
 
   <script>
     function vh(v) {
@@ -496,6 +504,36 @@
       img.src = 'images/lines2_animated.svg';
       par.appendChild(img);
     }
+  </script>
+
+<script>
+  function vh(v) {
+  var h = Math.max(
+    document.documentElement.clientHeight,
+    window.innerHeight || 0
+  );
+  return (v * h) / 100;
+}
+
+
+  var $doc = $(document),
+    $win = $(window),
+    $svg = $("svg").drawsvg(),
+    max = $doc.height() - $win.height();
+  $win.on("scroll", function() {
+    if ($win.scrollTop() > vh(350)) {
+      var p = ($win.scrollTop() / (max-vh(350))-5.74);
+      //console.log($win.scrollTop() / 100);
+      $svg.drawsvg("progress", p);
+      console.log(p);
+    }
+  });
+  </script>
+
+  <script>
+    $(window).on("load",function(){
+      $(".loader-wrapper").fadeOut("slow");
+    });
   </script>
 </body>
 

@@ -31,66 +31,6 @@
     background-color: black;
 }
 
-/*ZACZYNA SIE WIZYTOWKA!!!!!!!!!!!!!!!! */
-/*
-.object2 {
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.card {
-    -webkit-perspective: 150rem;
-    perspective: 150rem;
-    height: 20rem;
-    width: 28rem;
-    position: relative;
-}
-
-.card__side {
-    height: 15rem;
-    transition: all 0.8s ease;
-    position: absolute;
-    top: 0;
-    left: 0;
-    margin: auto;
-    width: 28rem;
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
-    border-radius: 3px;
-    overflow: hidden;
-    box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.4);
-}
-
-.card__side--front {
-    background-image: url('images/wizytowka.png');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-.card__side--back {
-    background-color: rgb(63, 64, 65);
-    background-image: url('images/wizytowka.svg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    -webkit-transform: rotateY(180deg);
-    transform: rotateY(180deg);
-}
-
-.card:hover .card__side--front {
-    -webkit-transform: rotateY(-180deg);
-    transform: rotateY(-180deg);
-}
-
-.card:hover .card__side--back {
-    -webkit-transform: rotateY(0deg);
-    transform: rotateY(0deg);
-}
-*/
-
 .content {
     font-family: 'Raleway', sans-serif;
     font-weight: 400;

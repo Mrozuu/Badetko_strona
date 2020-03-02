@@ -64,8 +64,6 @@ function functionScroll() {
   }
 
   if (document.documentElement.scrollTop > vContacts2) {
-    console.log("1");
-    console.log(vContacts2);
     document.getElementById("content_head_animation").className =
       "content_head_animation";
     document.getElementById("content_bar_animation1").className =
