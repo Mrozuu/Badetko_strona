@@ -286,8 +286,11 @@
     cursor: default;
   }
 
-  #wrap {
+  .background_on {
     background: url(images/tlo4_animated.svg)no-repeat fixed;
+  }
+
+  #wrap {
     width: 100%;
     background-size: 100%;
   }
