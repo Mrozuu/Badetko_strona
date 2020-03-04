@@ -16,7 +16,7 @@
         top: 0;
         left: 0;
         height: 80vh;
-        background: url(images/mobile_background_contact.svg) no-repeat center center fixed;
+        background: url(images/mobile_background_contact.svg) no-repeat;
         background-size: cover;
     }
 
