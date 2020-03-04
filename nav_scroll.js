@@ -85,11 +85,16 @@ function functionScroll() {
   }
 
   //mobilna
-  var vContactsM = vh(400);
-  if (document.documentElement.scrollTop > vContactsM) {
-    document.getElementById("content_head_animation_m").className =
-      "content_head_animation";
+  var vContactsM1 =  document.getElementById("mobile").offsetHeight -
+  document.getElementById("mobile_contact").offsetHeight - vh(50);
+
+  if (document.documentElement.scrollTop > vContactsM1) {
+    console.log("xd");
+    document.getElementById("mobile_contact_header2").className =
+    "content_head_animation";
   }
+
+  //console.log(vContactsM1);
 }
 
 function onmouseover_icon_first() {
