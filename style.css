@@ -296,6 +296,10 @@
 
   .background_on {
     background: url(images/tlo4_animated.svg)no-repeat fixed;
+    -webkit-backface-visibility: hidden;
+    /* add to fix webkit bug jitter */
+    -webkit-transform: perspective(1000px);
+    /* add to fix webkit bug jitter */
   }
 
   #wrap {
