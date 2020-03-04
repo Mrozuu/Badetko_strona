@@ -306,6 +306,7 @@
 
   #wrap {
     width: 100%;
+    background-attachment: fixed;
   }
 
   #header {
