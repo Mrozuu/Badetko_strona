@@ -425,8 +425,9 @@
         <h2>2019</h2>
         <h1>Butter Cut - Katowice</h1>
       </div>
-
+    </div>
       <div class = "mobile_contact">
+        <div class = "background_mobile_contact">
         <div class = "contact_header">
         <h1>CONTACT ME</h1>
         </div>
@@ -441,9 +442,10 @@
           <p>tel: 123 456 789</p>
           <div class = "bar_m"></div>
         </div>
+      </div>
         <div class = "footer_m"></div>
       </div>
-    </div>
+
     <div class = "loader-wrapper">
       <span class = "loader"><span class = "loader-inner"></span></span>
     </div>
@@ -560,15 +562,16 @@
       $(".loader-wrapper").fadeOut("slow");
       var elem = document.createElement("img");
       document.getElementById("logo").appendChild(elem);
+      document.getElementById
       document.getElementById("wrap").className = "background_on";
       elem.src = "images/LOGO3_animated.svg";
     });
   </script>
 
   <script>
-$(window).on('beforeunload', function(){
-  $(window).scrollTop(0);
-});
+    $(window).on('beforeunload', function(){
+    $(window).scrollTop(0);
+    });
   </script>
 </body>
 

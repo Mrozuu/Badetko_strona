@@ -12,6 +12,12 @@
     cursor: default;
   }
 
+  .name {
+    max-width: 90vw;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   #fullsite {
     display: none;
   }
@@ -24,6 +30,8 @@
 
   #header_mobile {
     height: 100vh;
+    background: url(images/mobile_background_contact.svg) no-repeat;
+    background-size: cover;
   }
 
   #header_mobile h1 {
