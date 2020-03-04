@@ -81,6 +81,24 @@
         display: block;
         background-color: black;
     }
+
+    .mobile_contact_bar_animation {
+        animation: 3s ease-out 0s 1 m_bar_animation forwards;
+    
+    }
+    
+    @keyframes m_bar_animation {
+        0% {
+            width: 0%;
+            background-color: rgb(66, 64, 64);
+        }
+    
+        100% {
+            width: 70%;
+            background-color: rgb(66, 64, 64);
+    
+        }
+    }
 }
 
 @media only screen and (min-width: 961px) {

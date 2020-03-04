@@ -88,10 +88,21 @@ function functionScroll() {
   var vContactsM1 =  document.getElementById("mobile").offsetHeight -
   document.getElementById("mobile_contact").offsetHeight - vh(50);
 
+  var vContactsM2 =  vContactsM1 + vh(20);
+
   if (document.documentElement.scrollTop > vContactsM1) {
     console.log("xd");
     document.getElementById("mobile_contact_header2").className =
     "content_head_animation";
+  }
+
+  if (document.documentElement.scrollTop > vContactsM1) {
+    document.getElementById("mobile_contact_bar1").className =
+      "mobile_contact_bar_animation";
+    document.getElementById("mobile_contact_bar2").className =
+      "mobile_contact_bar_animation";
+    document.getElementById("mobile_contact_bar3").className =
+      "mobile_contact_bar_animation";
   }
 
   //console.log(vContactsM1);
