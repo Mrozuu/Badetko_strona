@@ -104,12 +104,15 @@
     display: flex;
     flex-wrap: nowrap;
     overflow-x: auto;
+
+
   }
 
   .scrolling-wrapper-flexbox .gallery_card {
     -webkit-box-flex: 0;
     flex: 0 0 auto;
     margin-right: 20px;
+
   }
 
   .gallery_card {
@@ -121,7 +124,7 @@
   .gallery_card_sign {
     padding-top: 0px;
     padding-left: 20px;
-    height: 20vh;
+    height: 12vh;
   }
 
   .gallery_card_sign h1 {
@@ -130,6 +133,7 @@
     letter-spacing: 2px;
     font-family: 'Raleway', sans-serif;
     font-weight: 400;
+    margin-top:0;
   }
 
   .gallery_card_sign h2 {
@@ -138,6 +142,15 @@
     letter-spacing: 2px;
     font-family: 'Raleway', sans-serif;
     font-weight: 200;
+    margin-top:0;
+    margin-bottom:1vh;
+  }
+
+  .gallery_card_button{
+    height: 8vh;
+    width:8vw;
+    margin-left: 46vw;
+    margin-right: 46vw;
   }
 
   .gallery_card img {
@@ -146,7 +159,7 @@
 
   .scrolling-wrapper,
   .scrolling-wrapper-flexbox {
-    margin-bottom: 20px;
+    margin-bottom: 5px;
     width: 100%;
     -webkit-overflow-scrolling: touch;
   }
