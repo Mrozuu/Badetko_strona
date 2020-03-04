@@ -300,9 +300,9 @@
   }
 
   .background_on {
-    background: url(images/papiez.jpg)no-repeat;
+    background: url(images/tlo4_animated.svg)no-repeat;
     background-size: 100%;
-    background-attachment: fixed;
+    background-attachment: local, scroll;
   }
 
   #wrap {
