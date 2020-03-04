@@ -300,13 +300,13 @@
   }
 
   .background_on {
-    background: url(images/tlo4_animated.svg)no-repeat fixed;
+    background: url(images/papiez.jpg)no-repeat;
     background-size: 100%;
+    background-attachment: fixed;
   }
 
   #wrap {
     width: 100%;
-    background-attachment: fixed;
   }
 
   #header {
