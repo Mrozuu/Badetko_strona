@@ -17,7 +17,7 @@
         left: 0;
         height: 80vh;
         background: url(images/mobile_background_contact.svg) no-repeat;
-        background-size: cover;
+        background-size: 100%;
     }
 
     .contact_header {

@@ -30,8 +30,8 @@
 
   #header_mobile {
     height: 100vh;
-    background: url(images/mobile_background_contact.svg) no-repeat center center fixed;
-    background-size: cover;
+    background: url(images/mobile_background_contact.svg) no-repeat;
+    background-size: 100%;
   }
 
   #header_mobile h1 {
