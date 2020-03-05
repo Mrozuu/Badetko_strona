@@ -143,8 +143,8 @@
     #left img {
         display: block;
         margin: auto;
-        max-width: 40vw;
-        padding-top: 5vh;
+        max-height: 35vw;
+        padding-top: 8vh;
     }
 
     #footer {

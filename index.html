@@ -216,7 +216,7 @@
 
     <div id="content">
       <div id="left">
-          <img class = "lazy" data-src = "images/marcel_face_animated.svg">
+          <img class = "lazy" data-src = "images/marcel_face_2_animated.svg">
       </div>
       <div id="right">
         <h1 class="content_head">CONTACT ME</h1>
@@ -566,6 +566,7 @@
           $(".bottombar").addClass("sticky_none");
         }
         else if (ScrollY > vAboutMe + document.getElementById("about_me").offsetHeight) {
+          console.log("contact");
         }
         else {
           $(".bottombar").removeClass("sticky_none");
@@ -602,29 +603,6 @@
     }
   </script>
 
-<script>
-  function vh(v) {
-  var h = Math.max(
-    document.documentElement.clientHeight,
-    window.innerHeight || 0
-  );
-  return (v * h) / 100;
-}
-
-
-  var $doc = $(document),
-    $win = $(window),
-    $svg = $("svg").drawsvg(),
-    max = $doc.height() - $win.height();
-  $win.on("scroll", function() {
-    if ($win.scrollTop() > vh(350)) {
-      var p = ($win.scrollTop() / (max-vh(350))-5.74);
-      //console.log($win.scrollTop() / 100);
-      $svg.drawsvg("progress", p);
-      console.log(p);
-    }
-  });
-  </script>
 
   <script>
     $(window).on("load",function(){
