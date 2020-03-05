@@ -27,10 +27,14 @@
     width: 100vw;
   }
 
+  .background_on_mobile {
+    background: url(images/mobile_background_contact_animated.svg)no-repeat;
+    background-size: 100%;
+    background-attachment: local, scroll;
+  }
 
   #header_mobile {
     height: 100vh;
-    background: url(images/mobile_background_contact.svg) no-repeat;
     background-size: 100%;
   }
 

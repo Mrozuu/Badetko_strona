@@ -14,13 +14,15 @@
     margin: 1em;
   }
 
-  .mobile_gallery_header_page{
+  .mobile_gallery_header_page {
     height: 100vh;
     position: relative;
   }
 
   .mobile_gallery_title {
-    top:12vh;
+    font-family: 'Raleway', sans-serif;
+    font-weight: x-large;
+    top: 12vh;
     height: 10vh;
     width: 100%;
     position: absolute;
@@ -30,53 +32,51 @@
     border: 0;
     padding: 0;
     margin: 0;
-    font-size: 45px;
     text-align: center;
-    letter-spacing: 8px;
-    font-family: 'Raleway', sans-serif;
-    font-weight: 300;
+    letter-spacing: 1vw;
+    font-size: 10vh;
   }
 
-  .mobile_gallery_description{
+  .mobile_gallery_description {
     position: absolute;
-    top:25%;
+    top: 25%;
     height: 30vh;
     margin-top: 0;
     margin-bottom: 0;
-    margin-left:5vw;
-    margin-right:5vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
   }
 
- 
+
 
   .mobile_gallery_description p {
     text-align: justify;
-    margin:0;
+    margin: 0;
   }
 
-  .mobile_gallery_description_picture{
+  .mobile_gallery_description_picture {
     position: absolute;
-    top:55%;
+    top: 55%;
     height: 35vh;
-    width:100%;
+    width: 100%;
     text-align: center;
   }
 
-  .mobile_gallery_description_picture img{
-    height:100%;
+  .mobile_gallery_description_picture img {
+    height: 100%;
   }
 
-  .mobile_gallery_button{
+  .mobile_gallery_button {
     position: absolute;
     top: 93%;
     height: 5vh;
-    width:8vw;
+    width: 8vw;
     margin-left: 46vw;
     margin-right: 46vw;
   }
 
-  .mobile_gallery a  {
-    color:black;
+  .mobile_gallery a {
+    color: black;
   }
 
   .mobile_project_title h2 {
@@ -133,7 +133,7 @@
     letter-spacing: 2px;
     font-family: 'Raleway', sans-serif;
     font-weight: 400;
-    margin-top:0;
+    margin-top: 0;
   }
 
   .gallery_card_sign h2 {
@@ -142,13 +142,13 @@
     letter-spacing: 2px;
     font-family: 'Raleway', sans-serif;
     font-weight: 200;
-    margin-top:0;
-    margin-bottom:1vh;
+    margin-top: 0;
+    margin-bottom: 1vh;
   }
 
-  .gallery_card_button{
+  .gallery_card_button {
     height: 8vh;
-    width:8vw;
+    width: 8vw;
     margin-left: 46vw;
     margin-right: 46vw;
   }
