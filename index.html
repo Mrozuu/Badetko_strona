@@ -555,28 +555,22 @@
 
     $(document).ready(function () {
       var NavY = $(".bottombar").offset().top;
-     // console.log(NavY);
       var stickyNav = function () {
         var ScrollY = $(window).scrollTop();
         if (ScrollY > NavY && ScrollY < vAboutMe) {
           $(".bottombar").addClass("sticky");
           $(".bottombar_space").addClass("space");
           $(".bottombar").removeClass("sticky_none");
-          console.log("galeria");
         }
         else if (ScrollY > vAboutMe && ScrollY < vAboutMe + document.getElementById("about_me").offsetHeight) {
           $(".bottombar").addClass("sticky_none");
-
-          console.log("aboutme");
         }
         else if (ScrollY > vAboutMe + document.getElementById("about_me").offsetHeight) {
-          console.log("contact");
         }
         else {
           $(".bottombar").removeClass("sticky_none");
           $(".bottombar").removeClass("sticky");
           $(".bottombar_space").removeClass("space");
-          console.log("home");
         }
       };
       stickyNav();

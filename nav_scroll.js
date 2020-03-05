@@ -1,7 +1,6 @@
 window.onscroll = function() {
   functionScroll();
 };
-
 function vh(v) {
   var h = Math.max(
     document.documentElement.clientHeight,
@@ -28,7 +27,7 @@ function vmax(v) {
 
 var vProjects = vh(95);
 var vAboutMe = vh(195);
-var vContacts = vh(395);
+var vContacts = vAboutMe + document.getElementById("about_me").offsetHeight;
 var vContacts2 =
   document.getElementById("fullsite").offsetHeight -
   document.getElementById("content").offsetHeight -
@@ -39,7 +38,6 @@ var vContacts3 =
   vh(40);
 
 function functionScroll() {
-  console.log(document.documentElement.scrollTop);
   if (document.documentElement.scrollTop < vProjects) {
     document.getElementById("nav_home").className = "nav_on";
     document.getElementById("nav_projects").className = "nav_off";
@@ -85,15 +83,16 @@ function functionScroll() {
   }
 
   //mobilna
-  var vContactsM1 =  document.getElementById("mobile").offsetHeight -
-  document.getElementById("mobile_contact").offsetHeight - vh(50);
+  var vContactsM1 =
+    document.getElementById("mobile").offsetHeight -
+    document.getElementById("mobile_contact").offsetHeight -
+    vh(50);
 
-  var vContactsM2 =  vContactsM1 + vh(20);
+  var vContactsM2 = vContactsM1 + vh(20);
 
   if (document.documentElement.scrollTop > vContactsM1) {
-    console.log("xd");
     document.getElementById("mobile_contact_header2").className =
-    "content_head_animation";
+      "content_head_animation";
   }
 
   if (document.documentElement.scrollTop > vContactsM1) {
@@ -104,8 +103,6 @@ function functionScroll() {
     document.getElementById("mobile_contact_bar3").className =
       "mobile_contact_bar_animation";
   }
-
-  //console.log(vContactsM1);
 }
 
 function onmouseover_icon_first() {
