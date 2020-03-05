@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:400,700,900&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Raleway:200,200i,300,400&display=swap');
 
 @media only screen and (max-width: 960px) {
 
@@ -74,6 +75,25 @@
         height: 20vh;
     }
 
+    #footer_texts_m {
+        padding-top: 4vh;
+        display: inline-block;
+        position: absolute;
+        width: 100%;
+        height: 10vh;
+        text-align: center;
+    }
+
+
+
+    #footer_texts_m h1 {
+        font-family: 'Raleway', sans-serif;
+        font-weight: 100;
+        font-size: 2vh;
+        color: white;
+        margin: 0;
+    }
+
     .bar_m {
         margin-left: 2vw;
         height: 4px;
@@ -128,9 +148,37 @@
     }
 
     #footer {
+        margin: 0;
         height: 10vh;
         width: 100%;
         background-color: black;
+        text-align: center;
+    }
+
+    #footer h1 {
+        padding-top: 3vh;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 100;
+        font-size: 3vh;
+        color: white;
+        margin: 0;
+    }
+
+    #footer_icons {
+        height: 10vh;
+        width: 30%;
+        position: absolute;
+        display: flex;
+    }
+
+    #footer_texts {
+        display: inline-block;
+        padding-right: auto;
+        padding-left: auto;
+        height: 10vh;
+        left: 30%;
+        width: 70%;
+        position: absolute;
     }
 
     .content {
