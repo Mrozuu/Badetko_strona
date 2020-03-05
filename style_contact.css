@@ -84,19 +84,19 @@
 
     .mobile_contact_bar_animation {
         animation: 3s ease-out 0s 1 m_bar_animation forwards;
-    
+
     }
-    
+
     @keyframes m_bar_animation {
         0% {
             width: 0%;
             background-color: rgb(66, 64, 64);
         }
-    
+
         100% {
             width: 70%;
             background-color: rgb(66, 64, 64);
-    
+
         }
     }
 }
@@ -178,10 +178,11 @@
     }
 
     #right h1 {
-        padding-left: 10vw;
         font-weight: 900;
-        font-size: 13vh;
-        margin-top: 2vh;
+        padding-right: 5vw;
+        font-size: 12.5vh;
+        margin-top: 4vh;
+        text-align: right;
     }
 
     #right h2 {
