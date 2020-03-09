@@ -582,15 +582,17 @@
     animation: 0.5s ease-in 0s 1 nav_animation forwards;
   }
 
+
+
   @keyframes nav_animation {
     0% {
-      height: 5h;
+      height: 7vh;
     }
 
     100% {
       opacity: 0.8;
       background-color: white;
-      height: 6vh;
+      height: 7vh;
     }
   }
 
@@ -635,7 +637,7 @@
     text-decoration: none;
     color: #424242;
     margin: 0 0px;
-    font-size: 16px;
+    font-size: 2vh;
     letter-spacing: 1px;
     position: relative;
     display: inline-block;
