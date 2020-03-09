@@ -38,6 +38,7 @@ $(document).ready(function () {
 });
 
 function functionScroll() {
+  console.log(document.documentElement.scrollTop);
   if (document.documentElement.scrollTop < vProjects) {
     document.getElementById("nav_home").className = "nav_on";
     document.getElementById("nav_projects").className = "nav_off";
@@ -67,11 +68,9 @@ function functionScroll() {
     document.getElementById("nav_projects").className = "nav_off";
     document.getElementById("nav_about_me").className = "nav_off";
     document.getElementById("nav_contact").className = "nav_on";
-    console.log("@");
   }
 
   if (document.documentElement.scrollTop >= vContacts - vh(30)) {
-    console.log("!");
     document.getElementById("content_head_animation").className =
       "content_head_animation";
   }
