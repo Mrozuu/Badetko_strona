@@ -29,7 +29,6 @@ var vProjects = vh(95);
 var vAboutMe = vh(195);
 var vContacts = vAboutMe + document.getElementById("about_me").offsetHeight;
 
-
 function functionScroll() {
   if (document.documentElement.scrollTop < vProjects) {
     document.getElementById("nav_home").className = "nav_on";
