@@ -27,11 +27,13 @@ function vmax(v) {
 
 var vProjects = vh(95);
 var vAboutMe = vh(195);
-var vContacts = vAboutMe + document.getElementById("about_me").offsetHeight;
+var vContacts = vAboutMe + vh(5) + document.getElementById("about_me").offsetHeight;
 console.log(vContacts);
 
+
+var vContacts2;
 $(document).ready(function () {
-  var vContacts2 = $("#content").offset().top;
+  vContacts2 = $("#content").offset().top;
   console.log(vContacts2);
 });
 
