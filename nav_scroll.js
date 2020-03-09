@@ -30,6 +30,11 @@ var vAboutMe = vh(195);
 var vContacts = vAboutMe + document.getElementById("about_me").offsetHeight;
 console.log(vContacts);
 
+$(document).ready(function () {
+  var vContacts2 = $("#content").offset().top;
+  console.log(vContacts2);
+});
+
 function functionScroll() {
   if (document.documentElement.scrollTop < vProjects) {
     document.getElementById("nav_home").className = "nav_on";
