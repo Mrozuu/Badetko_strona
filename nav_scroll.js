@@ -28,15 +28,7 @@ function vmax(v) {
 var vProjects = vh(95);
 var vAboutMe = vh(195);
 var vContacts = vAboutMe + document.getElementById("about_me").offsetHeight;
-console.log(vContacts);
-var vContacts2 =
-  document.getElementById("fullsite").offsetHeight -
-  document.getElementById("content").offsetHeight -
-  vh(50);
-var vContacts3 =
-  document.getElementById("fullsite").offsetHeight -
-  document.getElementById("content").offsetHeight -
-  vh(40);
+
 
 function functionScroll() {
   if (document.documentElement.scrollTop < vProjects) {
@@ -68,13 +60,15 @@ function functionScroll() {
     document.getElementById("nav_projects").className = "nav_off";
     document.getElementById("nav_about_me").className = "nav_off";
     document.getElementById("nav_contact").className = "nav_on";
+    console.log("@");
   }
 
-  if (document.documentElement.scrollTop > vContacts2) {
+  if (document.documentElement.scrollTop >= vContacts - vh(30)) {
+    console.log("!");
     document.getElementById("content_head_animation").className =
       "content_head_animation";
   }
-  if (document.documentElement.scrollTop > vContacts3) {
+  if (document.documentElement.scrollTop >= vContacts - vh(20)) {
     document.getElementById("content_bar_animation1").className =
       "content_bar_animation";
     document.getElementById("content_bar_animation2").className =
