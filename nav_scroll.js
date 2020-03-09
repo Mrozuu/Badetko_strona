@@ -28,8 +28,11 @@ function vmax(v) {
 var vProjects = vh(95);
 var vAboutMe = vh(195);
 var vContacts = vAboutMe + vh(5) + document.getElementById("about_me").offsetHeight;
-console.log(vContacts);
+
 var vContacts3 = document.getElementById("fullsite").offsetHeight - document.getElementById("content").offsetHeight;
+console.log(document.getElementById("fullsite").offsetHeight);
+console.log(document.getElementById("content").offsetHeight);
+console.log(vContacts);
 console.log(vContacts3) + console.log('!!!');
 
 var vContacts2;
