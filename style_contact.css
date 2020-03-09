@@ -92,28 +92,26 @@
     }
 
     .bar_m {
-        margin-left: 2vw;
         height: 4px;
-        width: 70%;
+        width: 0;
         display: block;
         background-color: black;
     }
 
     .mobile_contact_bar_animation {
-        animation: 3s ease-out 0s 1 m_bar_animation forwards;
+        background-color: black;
+        animation: 3s ease-in 0s 1 m_bar_animation forwards;
 
     }
 
     @keyframes m_bar_animation {
         0% {
             width: 0%;
-            background-color: rgb(66, 64, 64);
+
         }
 
         100% {
-            width: 70%;
-            background-color: rgb(66, 64, 64);
-
+            width: 100%;
         }
     }
 }
@@ -262,7 +260,7 @@
     }
 
     100% {
-        width: 40%;
+        width: 53%;
         background-color: rgb(66, 64, 64);
 
     }
