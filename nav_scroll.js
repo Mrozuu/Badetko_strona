@@ -28,6 +28,7 @@ function vmax(v) {
 var vProjects = vh(95);
 var vAboutMe = vh(195);
 var vContacts = vAboutMe + document.getElementById("about_me").offsetHeight;
+console.log(vContacts);
 
 function functionScroll() {
   if (document.documentElement.scrollTop < vProjects) {
