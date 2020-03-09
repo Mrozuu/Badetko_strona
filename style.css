@@ -21,13 +21,12 @@
     display: none;
   }
 
-  .contener {
-    height: 100vh;
+  #contener {
     width: 100vw;
   }
 
   .background_on_mobile {
-    background: url(images/mobile_background_contact_animated.svg)no-repeat;
+    background: url(images/mobile_home_animated.svg)no-repeat;
     background-size: 100%;
     background-attachment: local, scroll;
   }
@@ -258,7 +257,7 @@
     }
   }
 
-  .logo {
+  #logo {
     margin-left: auto;
     margin-right: auto;
     width: 50vw;

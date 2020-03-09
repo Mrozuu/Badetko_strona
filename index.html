@@ -258,7 +258,7 @@
 
 
   <div id="mobile">
-    <div class="contener">
+    <div id="contener">
       <div id="header_mobile">
         <div id="menu-bar">
           <div id="menu" onclick="onClickMenu()">
@@ -274,7 +274,7 @@
           </ul>
         </div>
         <div class="menu-bg" id="menu-bg"></div>
-        <div class="logo">
+        <div id="logo">
           <img src="images/LOGO3_animated.svg" />
         </div>
         <div class="name">
@@ -299,7 +299,6 @@
           </div>
         </div>
       </div>
-    </div>
     <div class="mobile_gallery">
       <div class="mobile_gallery_header_page">
         <div class="mobile_gallery_title">
@@ -490,6 +489,8 @@
         <a href="#mobile_contact"> <i class="icon-down-open"></i></a>
       </div>
     </div>
+  </div>
+
       <div id="mobile_contact" class = "mobile_contact">
         <div class = "background_mobile_contact">
         <div class = "contact_header">
@@ -605,7 +606,7 @@
       var elem = document.createElement("img");
       document.getElementById("logo").appendChild(elem);
       document.getElementById("wrap").className = "background_on";
-      document.getElementById("header_mobile").className = "background_on_mobile";
+      document.getElementById("contener").className = "background_on_mobile";
       elem.src = "images/LOGO3_animated.svg";
     });
   </script>
