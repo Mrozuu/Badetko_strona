@@ -6,7 +6,7 @@ var t5 = new TimelineMax();
 const controller = new ScrollMagic.Controller();
 
 tl.from(".photo_one", 0.1, { x: -200, y: -150, opacity: 0 });
-t2.from(".photo_two", 1, { y: -100, opacity: 0 });
+t2.from(".photo_two", 1, { y: -150, opacity: 0 });
 t3.from(".photo_three", 1, { x: -200, y: 200, opacity: 0 });
 t4.from(".photo_four", 2, { y: 200, opacity: 0 });
 t5.from(".photo_five", 1, { x: 500, opacity: 0 });
