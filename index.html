@@ -554,19 +554,11 @@
       var NavY = $(".bottombar").offset().top;
       var stickyNav = function () {
         var ScrollY = $(window).scrollTop();
-        if (ScrollY > NavY && ScrollY < vAboutMe) {
+        if (ScrollY > NavY) {
           $(".bottombar").addClass("sticky");
           $(".bottombar_space").addClass("space");
-          $(".bottombar").removeClass("sticky_none");
-        }
-        else if (ScrollY > vAboutMe && ScrollY < vAboutMe + document.getElementById("about_me").offsetHeight) {
-          $(".bottombar").addClass("sticky_none");
-        }
-        else if (ScrollY > vAboutMe + document.getElementById("about_me").offsetHeight) {
-          console.log("contact");
         }
         else {
-          $(".bottombar").removeClass("sticky_none");
           $(".bottombar").removeClass("sticky");
           $(".bottombar_space").removeClass("space");
         }
