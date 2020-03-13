@@ -1,15 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:400,700,900&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Raleway:200,200i,300,400&display=swap');
 
-@media only screen and (max-width: 960px) {
-
+@media only screen and (max-width:960px) {
     .mobile_contact {
         color: black;
         font-family: 'Raleway', sans-serif;
         height: 100vh;
         width: 100%;
         margin: 0;
-        position: relative;
+        position: relative
     }
 
     .background_mobile_contact {
@@ -18,7 +17,7 @@
         left: 0;
         height: 80vh;
         background: url(images/mobile_background_contact.svg) no-repeat;
-        background-size: 100%;
+        background-size: 100%
     }
 
     .contact_header {
@@ -27,21 +26,21 @@
         height: 25vh;
         position: absolute;
         top: 10vh;
-        left: 0;
+        left: 0
     }
 
     .contact_header h1 {
         margin: 0;
         font-size: 10vh;
         overflow: hidden;
-        text-align: left;
+        text-align: left
     }
 
     .contact_header_2 {
         width: 100%;
         height: 20vh;
         position: absolute;
-        top: 35vh;
+        top: 35vh
     }
 
     .contact_header_2 h2 {
@@ -49,22 +48,21 @@
         font-size: 7vh;
         text-align: right;
         padding-right: 2vw;
-        word-wrap: break-word;
+        word-wrap: break-word
     }
 
     .contact_data {
         width: 100%;
         height: 25vh;
         position: absolute;
-        top: 55vh;
-
+        top: 55vh
     }
 
     .contact_data p {
         margin: 0;
         padding-left: 2vw;
         padding-bottom: 1.5vh;
-        padding-top: 1.5vh;
+        padding-top: 1.5vh
     }
 
     .footer_m {
@@ -72,7 +70,7 @@
         position: absolute;
         top: 80vh;
         width: 100%;
-        height: 20vh;
+        height: 20vh
     }
 
     #footer_texts_m {
@@ -80,7 +78,7 @@
         padding-top: 3vh;
         display: flex;
         position: absolute;
-        text-align: center;
+        text-align: center
     }
 
     #footer_texts_m h1 {
@@ -88,58 +86,56 @@
         font-weight: 200;
         font-size: 4.3vh;
         color: white;
-        margin: 0;
+        margin: 0
     }
 
     .bar_m {
         height: 4px;
         width: 0;
         display: block;
-        background-color: black;
+        background-color: black
     }
 
     .mobile_contact_bar_animation {
         background-color: black;
-        animation: 3s ease-in 0s 1 m_bar_animation forwards;
-
+        animation: 3s ease-in 0s 1 m_bar_animation forwards
     }
 
     @keyframes m_bar_animation {
         0% {
-            width: 0%;
-
+            width: 0
         }
 
         100% {
-            width: 100%;
+            width: 100%
         }
     }
 }
 
-@media only screen and (min-width: 961px) {
+@media only screen and (min-width:961px) {
     #content {
         overflow-y: auto;
         overflow-x: hidden;
         background-color: white;
-        color: black;
+        color: black
     }
 
     #left,
     #right {
-        width: 44vw;
+        width: 44vw
     }
 
     #left {
         height: 90vh;
         float: left;
-        padding-left: 5vw;
+        padding-left: 5vw
     }
 
     #left img {
         display: block;
         margin: auto;
         max-height: 35vw;
-        padding-top: 8vh;
+        padding-top: 8vh
     }
 
     #footer {
@@ -148,7 +144,7 @@
         width: 100%;
         background: #252525;
         text-align: center;
-        position: relative;
+        position: relative
     }
 
     #footer h1 {
@@ -156,15 +152,15 @@
         font-family: 'Raleway', sans-serif;
         font-weight: 200;
         font-size: 2.4vh;
-        color: rgb(255, 255, 255);
-        margin: 0;
+        color: #fff;
+        margin: 0
     }
 
     #footer_icons {
         left: 10%;
         height: 10vh;
         position: absolute;
-        display: flex;
+        display: flex
     }
 
     #footer_texts {
@@ -174,19 +170,17 @@
         height: 10vh - 5%;
         right: 5%;
         top: 5%;
-        position: absolute;
+        position: absolute
     }
 
     .content {
         font-family: 'Raleway', sans-serif;
-        font-weight: 400;
+        font-weight: 400
     }
-
-
 
     .cont {
         width: 100%;
-        height: 100vh;
+        height: 100vh
     }
 
     .content>p {
@@ -201,24 +195,24 @@
         display: block;
         margin-block-start: 1em;
         margin-block-end: 1em;
-        margin-inline-start: 0px;
-        margin-inline-end: 0px;
-        align-items: center;
+        margin-inline-start: 0;
+        margin-inline-end: 0;
+        align-items: center
     }
 
     .content_text {
-        padding-top: 3vh;
+        padding-top: 3vh
     }
 
     .content_head {
         font-family: 'Raleway', sans-serif;
-        font-size: xx-large;
+        font-size: xx-large
     }
 
     #right {
         height: 60vh;
         float: right;
-        padding-left: 5vw;
+        padding-left: 5vw
     }
 
     #right h1 {
@@ -226,7 +220,7 @@
         padding-right: 5vw;
         font-size: 12.5vh;
         margin-top: 5.5vh;
-        text-align: right;
+        text-align: right
     }
 
     #right h2 {
@@ -234,48 +228,45 @@
         margin: 0;
         font-size: 3em;
         padding-left: 2vw;
-        padding-top: 0.5vh;
+        padding-top: .5vh
     }
 
     .contact_bar {
         height: 5px;
         width: 40%;
         display: block;
-        border-radius: 5px;
-
+        border-radius: 5px
     }
 }
 
 .content_head_animation {
-    animation: 4s ease-out 0s 1 text_animation forwards;
+    animation: 4s ease-out 0s 1 text_animation forwards
 }
 
 .content_bar_animation {
-    animation: 3s ease-out 0s 1 bar_animation forwards;
-
+    animation: 3s ease-out 0s 1 bar_animation forwards
 }
 
 @keyframes bar_animation {
     0% {
-        width: 0%;
-        background-color: rgb(66, 64, 64);
+        width: 0;
+        background-color: #424040
     }
 
     100% {
         width: 53%;
-        background-color: rgb(66, 64, 64);
-
+        background-color: #424040
     }
 }
 
 @keyframes text_animation {
     0% {
         background-color: white;
-        color: black;
+        color: black
     }
 
     100% {
         background-color: black;
-        color: white;
+        color: white
     }
 }

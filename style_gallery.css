@@ -1,22 +1,21 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway:200,200i,300,400&display=swap');
 
-
-@media only screen and (max-width: 960px) {
+@media only screen and (max-width:960px) {
   .content {
-    background: rgb(255, 255, 255);
+    background: #fff;
     color: #333;
     padding: 20px;
-    margin-top: 30px;
+    margin-top: 30px
   }
 
   .codepen,
   .cp_embed_wrapper {
-    margin: 1em;
+    margin: 1em
   }
 
   .mobile_gallery_header_page {
     height: 100vh;
-    position: relative;
+    position: relative
   }
 
   .mobile_gallery_title {
@@ -25,7 +24,7 @@
     top: 12vh;
     height: 10vh;
     width: 100%;
-    position: absolute;
+    position: absolute
   }
 
   .mobile_gallery_title h1 {
@@ -33,7 +32,7 @@
     padding: 0;
     margin: 0;
     text-align: center;
-    font-size: 9vh;
+    font-size: 9vh
   }
 
   .mobile_gallery_description {
@@ -44,14 +43,12 @@
     margin-bottom: 0;
     margin-left: 5vw;
     margin-right: 5vw;
-    text-align: center;
+    text-align: center
   }
-
-
 
   .mobile_gallery_description p {
     text-align: justify;
-    margin: 0;
+    margin: 0
   }
 
   .mobile_gallery_description_picture {
@@ -59,11 +56,11 @@
     top: 55%;
     height: 35vh;
     width: 100%;
-    text-align: center;
+    text-align: center
   }
 
   .mobile_gallery_description_picture img {
-    height: 100%;
+    height: 100%
   }
 
   .mobile_gallery_button {
@@ -72,11 +69,11 @@
     height: 5vh;
     width: 8vw;
     margin-left: 46vw;
-    margin-right: 46vw;
+    margin-right: 46vw
   }
 
   .mobile_gallery a {
-    color: black;
+    color: black
   }
 
   .mobile_project_title h2 {
@@ -85,49 +82,46 @@
     text-align: center;
     letter-spacing: 2px;
     font-family: 'Raleway', sans-serif;
-    font-weight: 200;
+    font-weight: 200
   }
-
 
   .scrolling-wrapper {
     overflow-x: scroll;
     overflow-y: hidden;
-    white-space: nowrap;
+    white-space: nowrap
   }
 
   .scrolling-wrapper .gallery_card {
-    display: inline-block;
+    display: inline-block
   }
 
   .scrolling-wrapper-flexbox {
     display: -webkit-box;
     display: flex;
     flex-wrap: nowrap;
-    overflow-x: auto;
-
-
+    overflow-x: auto
   }
 
   .scrolling-wrapper-flexbox .gallery_card {
     -webkit-box-flex: 0;
     flex: 0 0 auto;
     margin-right: 20px;
-    overflow: hidden;
+    overflow: hidden
   }
 
   .no_margin {
-    margin-right: 0px !important;
+    margin-right: 0 !important
   }
 
   .gallery_card {
     width: 100vw;
-    height: 80vh;
+    height: 80vh
   }
 
   .gallery_card_sign {
-    padding-top: 0px;
+    padding-top: 0;
     padding-left: 20px;
-    height: 12vh;
+    height: 12vh
   }
 
   .gallery_card_sign h1 {
@@ -136,7 +130,7 @@
     letter-spacing: 2px;
     font-family: 'Raleway', sans-serif;
     font-weight: 400;
-    margin-top: 0;
+    margin-top: 0
   }
 
   .gallery_card_sign h2 {
@@ -146,58 +140,56 @@
     font-family: 'Raleway', sans-serif;
     font-weight: 200;
     margin-top: 0;
-    margin-bottom: 1vh;
+    margin-bottom: 1vh
   }
 
   .gallery_card_button {
     height: 8vh;
     width: 8vw;
     margin-left: 46vw;
-    margin-right: 46vw;
+    margin-right: 46vw
   }
 
   .gallery_card img {
-    max-width: 100%;
+    max-width: 100%
   }
 
   .scrolling-wrapper,
   .scrolling-wrapper-flexbox {
     margin-bottom: 5px;
     width: 100%;
-    -webkit-overflow-scrolling: touch;
+    -webkit-overflow-scrolling: touch
   }
 
   .scrolling-wrapper::-webkit-scrollbar,
   .scrolling-wrapper-flexbox::-webkit-scrollbar {
-    display: none;
+    display: none
   }
-
 }
 
-@media only screen and (min-width: 961px) {
+@media only screen and (min-width:961px) {
   #background_gallery {
     width: 100%;
     height: 100vh;
     font-family: 'Raleway', sans-serif;
-    font-weight: 400;
+    font-weight: 400
   }
-
 
   #container_gallery a:link {
     color: #fff;
-    text-decoration: none;
+    text-decoration: none
   }
 
   #container_gallery a:visited {
-    color: #fff;
+    color: #fff
   }
 
   #container_gallery a:hover {
-    color: #fff;
+    color: #fff
   }
 
   #container_gallery a:active {
-    color: #fff;
+    color: #fff
   }
 
   #container_gallery {
@@ -207,28 +199,28 @@
     margin-left: auto;
     margin-right: auto;
     width: 1260px;
-    text-align: center;
+    text-align: center
   }
 
   .gallery_title {
     width: 100%;
     height: 8vh;
-    color: #1c1c1c;
+    color: #1c1c1c
   }
 
   .gallery_title h1 {
     text-align: center;
-    color: rgb(66, 64, 64);
+    color: #424040;
     letter-spacing: 8px;
     font-family: 'Raleway', sans-serif;
     font-weight: 400;
-    font-size: 40px;
+    font-size: 40px
   }
 
   .gallery_left {
     float: left;
     width: 830px;
-    height: 80vh;
+    height: 80vh
   }
 
   .photo_one {
@@ -237,19 +229,19 @@
     height: 290px;
     margin-right: 5px;
     margin-bottom: 5px;
-    overflow: hidden;
+    overflow: hidden
   }
 
   .photo_one img {
     width: 390px;
     height: 290px;
-    transition: all 0.5s ease-in-out;
+    transition: all .5s ease-in-out
   }
 
   .photo_one:hover img {
     -webkit-transform: scale(1.1);
     -ms-transform: scale(1.1);
-    transform: scale(1.1);
+    transform: scale(1.1)
   }
 
   .photo_two {
@@ -258,19 +250,19 @@
     height: 290px;
     margin-left: 5px;
     margin-bottom: 5px;
-    overflow: hidden;
+    overflow: hidden
   }
 
   .photo_two img {
     width: 425px;
     height: 290px;
-    transition: all 0.5s ease-in-out;
+    transition: all .5s ease-in-out
   }
 
   .photo_two:hover img {
     -webkit-transform: scale(1.1);
     -ms-transform: scale(1.1);
-    transform: scale(1.1);
+    transform: scale(1.1)
   }
 
   .photo_three {
@@ -279,19 +271,19 @@
     height: 280px;
     margin-right: 5px;
     margin-top: 5px;
-    overflow: hidden;
+    overflow: hidden
   }
 
   .photo_three img {
     width: 330px;
     height: 280px;
-    transition: all 0.5s ease-in-out;
+    transition: all .5s ease-in-out
   }
 
   .photo_three:hover img {
     -webkit-transform: scale(1.1);
     -ms-transform: scale(1.1);
-    transform: scale(1.1);
+    transform: scale(1.1)
   }
 
   .photo_four {
@@ -300,52 +292,52 @@
     height: 280px;
     margin-left: 5px;
     margin-top: 5px;
-    overflow: hidden;
+    overflow: hidden
   }
 
   .photo_four img {
     width: 480px;
     height: 280px;
-    transition: all 0.5s ease-in-out;
+    transition: all .5s ease-in-out
   }
 
   .photo_four:hover img {
     -webkit-transform: scale(1.1);
     -ms-transform: scale(1.1);
-    transform: scale(1.1);
+    transform: scale(1.1)
   }
 
   .gallery_right {
     float: left;
     width: 420px;
     height: 595px;
-    margin-top: 0px;
-    margin-left: 0px;
+    margin-top: 0;
+    margin-left: 0
   }
 
   .photo_five {
     float: left;
     width: 100%;
     height: 580px;
-    overflow: hidden;
+    overflow: hidden
   }
 
   .photo_five img {
     height: 100%;
     width: 100%;
-    transition: all 0.5s ease-in-out;
+    transition: all .5s ease-in-out
   }
 
   .photo_five:hover img {
     -webkit-transform: scale(1.1);
     -ms-transform: scale(1.1);
-    transform: scale(1.1);
+    transform: scale(1.1)
   }
 
   .overlay {
     position: relative;
     width: 100%;
-    height: 100%;
+    height: 100%
   }
 
   .overlay .link {
@@ -354,18 +346,17 @@
     width: 100%;
     height: 50px;
     background-color: #111;
-    left: 0px;
-    bottom: 0px;
+    left: 0;
+    bottom: 0;
     opacity: 0;
-    transition: opacity 0.5s ease-in-out;
-
+    transition: opacity .5s ease-in-out
   }
 
   .overlay .link p {
-    line-height: 5px;
+    line-height: 5px
   }
 
   .overlay:hover .link {
-    opacity: 0.8;
+    opacity: .8
   }
 }

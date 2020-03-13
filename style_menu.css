@@ -4,72 +4,72 @@
     width: 35px;
     height: 30px;
     margin: 30px 0 20px 20px;
-    cursor: pointer;
+    cursor: pointer
 }
 
 .bar {
     height: 5px;
     width: 100%;
-    background-color: rgb(0, 0, 0);
+    background-color: #000;
     display: block;
     border-radius: 5px;
-    transition: 0.3s ease;
+    transition: .3s ease
 }
 
 #bar1 {
-    transform: translateY(-4px);
+    transform: translateY(-4px)
 }
 
 #bar3 {
-    transform: translateY(4px);
+    transform: translateY(4px)
 }
 
 .nav li a {
     color: #fff;
-    text-decoration: none;
+    text-decoration: none
 }
 
 .nav li a:hover {
-    font-weight: bold;
+    font-weight: bold
 }
 
 .nav li {
     list-style: none;
-    padding: 16px 0;
+    padding: 16px 0
 }
 
 .nav li:nth-child(1) {
     top: 50px;
-    position: fixed;
+    position: fixed
 }
 
 .nav li:nth-child(2) {
     top: 100px;
-    position: fixed;
+    position: fixed
 }
 
 .nav li:nth-child(3) {
     top: 150px;
-    position: fixed;
+    position: fixed
 }
 
 .nav li:nth-child(4) {
     top: 200px;
-    position: fixed;
+    position: fixed
 }
 
 .nav {
     padding: 0;
     margin: 0 20px;
-    transition: 0.3s ease;
-    display: none;
+    transition: .3s ease;
+    display: none
 }
 
 .menu-bg,
 #menu-bar {
     top: 0;
     left: 0;
-    position: absolute;
+    position: absolute
 }
 
 .menu-bg {
@@ -79,11 +79,11 @@
     margin: 30px 0 20px 20px;
     background: black;
     border-radius: 50%;
-    transition: 0.3s ease;
+    transition: .3s ease
 }
 
 #menu-bar {
-    z-index: 2;
+    z-index: 2
 }
 
 .change-bg {
@@ -91,25 +91,25 @@
     position: fixed;
     width: 400px;
     height: 400px;
-    transform: translate(-65%, -45%);
+    transform: translate(-65%, -45%)
 }
 
 .change .bar {
-    background-color: white;
+    background-color: white
 }
 
 .change #bar1 {
-    transform: translateY(4px) rotateZ(-45deg);
+    transform: translateY(4px) rotateZ(-45deg)
 }
 
 .change #bar3 {
-    transform: translateY(-6px) rotate(45deg);
+    transform: translateY(-6px) rotate(45deg)
 }
 
 .change #bar2 {
-    opacity: 0;
+    opacity: 0
 }
 
 .change {
-    display: block;
+    display: block
 }

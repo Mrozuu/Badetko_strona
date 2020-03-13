@@ -1,23 +1,23 @@
 .center {
     display: table;
-    width: 100%;
+    width: 100%
 }
 
 #social-test {
     display: table-cell;
     vertical-align: middle;
     text-align: center;
-    font-size: 30px;
+    font-size: 30px
 }
 
 #social-test h2 {
     color: #fff;
     font-family: Futura, "Trebuchet MS", Arial, sans-serif;
-    font-weight: 100;
+    font-weight: 100
 }
 
 #social-test .social {
-    padding-left: 0px;
+    padding-left: 0
 }
 
 #social-test li {
@@ -32,18 +32,18 @@
     cursor: pointer;
     margin-left: 10px;
     margin-bottom: 20px;
-    transition: ease 0.3s;
+    transition: ease .3s
 }
 
 #social-test li:hover {
     color: #383838;
-    border: 1px solid #303030;
+    border: 1px solid #303030
 }
 
 .social:hover>li:hover {
-    opacity: 1;
+    opacity: 1
 }
 
-#social-test a{
-    text-decoration: none;
+#social-test a {
+    text-decoration: none
 }
