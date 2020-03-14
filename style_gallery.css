@@ -221,15 +221,6 @@
     margin-top:1%;
   }
 
-  .gallery_left {
-    float: left;
-    width: 830px;
-    height: 80vh;
-    position: relative;
-    margin-left: 0;
-    margin-right: 0;
-  }
-
   .photo_one {
     top: 16%;
     width: 33%;
@@ -238,13 +229,16 @@
     position: absolute;
   }
 
-  .photo_one img {
+  .photo_one_img {
     width: 100%;
     height: 100%;
     transition: all .5s ease-in-out;
+    background-image: url("images_gallery/butterkato/butterkato_thu_vsco.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
   }
 
-  .photo_one:hover img {
+  .photo_one_img:hover {
     -webkit-transform: scale(1.1);
     -ms-transform: scale(1.1);
     transform: scale(1.1)
@@ -259,13 +253,16 @@
     position: absolute;
   }
 
-  .photo_two img {
+  .photo_two_img {
     width: 100%;
     height: 100%;
-    transition: all .5s ease-in-out
+    transition: all .5s ease-in-out;
+    background-image: url("images_gallery/amk/amk_thu_vsco.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
   }
 
-  .photo_two:hover img {
+  .photo_two_img:hover {
     -webkit-transform: scale(1.1);
     -ms-transform: scale(1.1);
     transform: scale(1.1)
@@ -279,13 +276,16 @@
     overflow: hidden;
   }
 
-  .photo_three img {
+  .photo_three_img {
     width: 100%;
     height: 100%;
-    transition: all .5s ease-in-out
+    transition: all .5s ease-in-out;
+    background-image: url("images_gallery/omh/omh_thu_vsco.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
   }
 
-  .photo_three:hover img {
+  .photo_three_img:hover {
     -webkit-transform: scale(1.1);
     -ms-transform: scale(1.1);
     transform: scale(1.1)
@@ -300,42 +300,40 @@
     overflow: hidden;
   }
 
-  .photo_four img {
+  .photo_four_img {
     width: 100%;
     height: 100%;
-    transition: all .5s ease-in-out
+    transition: all .5s ease-in-out;
+    background-image: url("images_gallery/ibs/ibs_thu_vsco.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
   }
 
-  .photo_four:hover img {
+  .photo_four_img:hover {
     -webkit-transform: scale(1.1);
     -ms-transform: scale(1.1);
     transform: scale(1.1)
-  }
-
-  .gallery_right {
-    float: left;
-    width: 420px;
-    height: 595px;
-    margin-top: 0;
-    margin-left: 0;
-    overflow: hidden;
   }
 
   .photo_five {
     top: 16%;
     left:70%;
     height: 81%;
+    width: 30%;
     position: absolute;
     overflow: hidden;
   }
 
-  .photo_five img {
+  .photo_five_img {
     width: 100%;
     height: 100%;
-    transition: all .5s ease-in-out
+    transition: all .5s ease-in-out;
+    background-image: url("images_gallery/bms/bms_thu_vsco.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
   }
 
-  .photo_five:hover img {
+  .photo_five_img:hover {
     -webkit-transform: scale(1.1);
     -ms-transform: scale(1.1);
     transform: scale(1.1)
