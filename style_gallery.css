@@ -196,15 +196,18 @@
     padding-top: 7vh;
     padding-bottom: 5vh;
     height: 88vh;
+    width: 85vw;
     margin-left: auto;
     margin-right: auto;
-    width: 1260px;
-    text-align: center
+    text-align: center;
+    position: relative;
   }
 
   .gallery_title {
     width: 100%;
-    height: 8vh;
+    top:7%;
+    height: 8%;
+    position: absolute;
     color: #1c1c1c
   }
 
@@ -214,28 +217,31 @@
     letter-spacing: 8px;
     font-family: 'Raleway', sans-serif;
     font-weight: 400;
-    font-size: 40px
+    font-size: 40px;
+    margin-top:1%;
   }
 
   .gallery_left {
     float: left;
     width: 830px;
-    height: 80vh
+    height: 80vh;
+    position: relative;
+    margin-left: 0;
+    margin-right: 0;
   }
 
   .photo_one {
-    float: left;
-    width: 385px;
-    height: 290px;
-    margin-right: 5px;
-    margin-bottom: 5px;
-    overflow: hidden
+    top: 16%;
+    width: 33%;
+    height: 40%;
+    overflow: hidden;
+    position: absolute;
   }
 
   .photo_one img {
-    width: 390px;
-    height: 290px;
-    transition: all .5s ease-in-out
+    width: 100%;
+    height: 100%;
+    transition: all .5s ease-in-out;
   }
 
   .photo_one:hover img {
@@ -245,17 +251,17 @@
   }
 
   .photo_two {
-    float: left;
-    width: 425px;
-    height: 290px;
-    margin-left: 5px;
-    margin-bottom: 5px;
-    overflow: hidden
+    top: 16%;
+    left: 34%;
+    width: 35%;
+    height: 40%;
+    overflow: hidden;
+    position: absolute;
   }
 
   .photo_two img {
-    width: 425px;
-    height: 290px;
+    width: 100%;
+    height: 100%;
     transition: all .5s ease-in-out
   }
 
@@ -266,17 +272,16 @@
   }
 
   .photo_three {
-    float: left;
-    width: 330px;
-    height: 280px;
-    margin-right: 5px;
-    margin-top: 5px;
-    overflow: hidden
+    top: 57%;
+    width: 27%;
+    height: 40%;
+    position: absolute;
+    overflow: hidden;
   }
 
   .photo_three img {
-    width: 330px;
-    height: 280px;
+    width: 100%;
+    height: 100%;
     transition: all .5s ease-in-out
   }
 
@@ -287,17 +292,17 @@
   }
 
   .photo_four {
-    float: left;
-    width: 480px;
-    height: 280px;
-    margin-left: 5px;
-    margin-top: 5px;
-    overflow: hidden
+    top: 57%;
+    left: 28%;
+    width: 41%;
+    height: 40%;
+    position: absolute;
+    overflow: hidden;
   }
 
   .photo_four img {
-    width: 480px;
-    height: 280px;
+    width: 100%;
+    height: 100%;
     transition: all .5s ease-in-out
   }
 
@@ -312,19 +317,21 @@
     width: 420px;
     height: 595px;
     margin-top: 0;
-    margin-left: 0
+    margin-left: 0;
+    overflow: hidden;
   }
 
   .photo_five {
-    float: left;
-    width: 100%;
-    height: 580px;
-    overflow: hidden
+    top: 16%;
+    left:70%;
+    height: 81%;
+    position: absolute;
+    overflow: hidden;
   }
 
   .photo_five img {
-    height: 100%;
     width: 100%;
+    height: 100%;
     transition: all .5s ease-in-out
   }
 
