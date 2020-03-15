@@ -205,7 +205,7 @@
 
   .gallery_title {
     width: 100%;
-    top: 7%;
+    top:7%;
     height: 8%;
     position: absolute;
     color: #1c1c1c
@@ -218,7 +218,7 @@
     font-family: 'Raleway', sans-serif;
     font-weight: 400;
     font-size: 40px;
-    margin-top: 1%;
+    margin-top:1%;
   }
 
   .photo_one {
@@ -233,7 +233,7 @@
     width: 100%;
     height: 100%;
     transition: all .5s ease-in-out;
-    background-image: url("images_gallery/butterkato/butterkato_thu_vsco.webp");
+    background-image: url("images_gallery/butterkato/butterkato_thu_vsco.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
   }
@@ -257,7 +257,7 @@
     width: 100%;
     height: 100%;
     transition: all .5s ease-in-out;
-    background-image: url("images_gallery/amk/amk_thu_vsco.webp");
+    background-image: url("images_gallery/amk/amk_thu_vsco.jpg");
     background-size: 100% 100%;
     background-repeat: no-repeat;
   }
@@ -280,7 +280,7 @@
     width: 100%;
     height: 100%;
     transition: all .5s ease-in-out;
-    background-image: url("images_gallery/omh/omh_thu_vsco.webp");
+    background-image: url("images_gallery/omh/omh_thu_vsco.jpg");
     background-size: 100% 100%;
     background-repeat: no-repeat;
   }
@@ -304,7 +304,7 @@
     width: 100%;
     height: 100%;
     transition: all .5s ease-in-out;
-    background-image: url("images_gallery/ibs/ibs_thu_vsco.webp");
+    background-image: url("images_gallery/ibs/ibs_thu_vsco.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
   }
@@ -317,7 +317,7 @@
 
   .photo_five {
     top: 16%;
-    left: 70%;
+    left:70%;
     height: 81%;
     width: 30%;
     position: absolute;
@@ -328,7 +328,7 @@
     width: 100%;
     height: 100%;
     transition: all .5s ease-in-out;
-    background-image: url("images_gallery/bms/bms_thu_vsco.webp");
+    background-image: url("images_gallery/bms/bms_thu_vsco.jpg");
     background-size: 100% 100%;
     background-repeat: no-repeat;
   }
