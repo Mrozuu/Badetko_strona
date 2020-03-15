@@ -34,19 +34,13 @@ $(window).on("load", function() {
   var vContacts3 =
     document.getElementById("fullsite").offsetHeight -
     document.getElementById("content").offsetHeight;
-  console.log(document.getElementById("fullsite").offsetHeight);
-  console.log(document.getElementById("content").offsetHeight);
-  console.log(vContacts);
-  console.log(vContacts3) + console.log("!!!");
 
   var vContacts2;
   $(document).ready(function() {
     vContacts2 = $("#content").offset().top;
-    console.log(vContacts2);
   });
 
   function functionScroll() {
-    console.log(document.documentElement.scrollTop);
     if (document.documentElement.scrollTop < vProjects) {
       document.getElementById("nav_home").className = "nav_on";
       document.getElementById("nav_projects").className = "nav_off";
