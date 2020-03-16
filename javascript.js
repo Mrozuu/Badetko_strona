@@ -139,6 +139,81 @@ $(window).on("load", function() {
   });
 
 // end nav_scroll.js
+// start ham_menu.js
+function onClickMenu() {
+    document.getElementById("menu").classList.toggle("change");
+  
+    document.getElementById("nav").classList.toggle("change");
+  
+    document.getElementById("menu-bg").classList.toggle("change-bg");
+  }
+// end ham_menu.js
+
+// start scroll_animation.js
+var tl = new TimelineMax({ onUpdate: updatePercentage });
+var t2 = new TimelineMax();
+var t3 = new TimelineMax();
+var t4 = new TimelineMax();
+var t5 = new TimelineMax();
+const controller = new ScrollMagic.Controller();
+
+tl.from(".photo_one", 0.1, { x: -200, y: -150, opacity: 0 });
+t2.from(".photo_two", 1, { y: -150, opacity: 0 });
+t3.from(".photo_three", 1, { x: -200, y: 200, opacity: 0 });
+t4.from(".photo_four", 2, { y: 200, opacity: 0 });
+t5.from(".photo_five", 1, { x: 500, opacity: 0 });
+
+const scene1 = new ScrollMagic.Scene({
+  triggerElement: ".container_gallery",
+  triggerHook: "onLeave",
+  duration: "100%"
+})
+  .setPin(".container_gallery")
+  .setTween(tl)
+  .addTo(controller);
+
+const scene2 = new ScrollMagic.Scene({
+  triggerElement: ".container_gallery",
+  triggerHook: "onLeave",
+  duration: "100%"
+})
+  .setPin(".container_gallery")
+  .setTween(t2)
+  .addTo(controller);
+
+const scene3 = new ScrollMagic.Scene({
+  triggerElement: ".container_gallery",
+  triggerHook: "onLeave",
+  duration: "100%"
+})
+  .setPin(".container_gallery")
+  .setTween(t3)
+  .addTo(controller);
+
+const scene4 = new ScrollMagic.Scene({
+  triggerElement: ".container_gallery",
+  triggerHook: "onLeave",
+  duration: "100%"
+})
+  .setPin(".container_gallery")
+  .setTween(t4)
+  .addTo(controller);
+
+const scene5 = new ScrollMagic.Scene({
+  triggerElement: ".container_gallery",
+  triggerHook: "onLeave",
+  duration: "100%"
+})
+  .setPin(".container_gallery")
+  .setTween(t5)
+  .addTo(controller);
+
+function updatePercentage() {
+  tl.progress();
+}
+// end scroll_animation.js
+
+// index.html scripts below
 
 $(document).ready(function () {
   var NavY = $(".bottombar").offset().top;
@@ -202,9 +277,7 @@ if(lazyloadThrottleTimeout) {
 lazyloadThrottleTimeout = setTimeout(function() {
     var scrollTop = window.pageYOffset;
     lazyloadImages.forEach(function(img) {
-        //if(img.offsetTop < (window.innerHeight + scrollTop)) {
-        if(img.offsetTop < (window.innerHeight + scrollTop - vh(50) )) {
-            console.log("xD");
+        if(img.offsetTop < (window.innerHeight + scrollTop - vh(60))) {
           img.src = img.dataset.src;
           img.classList.remove('lazy');
         }
