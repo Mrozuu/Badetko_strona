@@ -70,7 +70,7 @@ $(window).on("load", function() {
         document.getElementById("nav_about_me").className = "nav_on";
         document.getElementById("nav_contact").className = "nav_off";
       }
-      if (document.documentElement.scrollTop >= vContacts) {
+      if (document.documentElement.scrollTop >= vContacts30) {
         document.getElementById("nav_home").className = "nav_off";
         document.getElementById("nav_projects").className = "nav_off";
         document.getElementById("nav_about_me").className = "nav_off";
